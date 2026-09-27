@@ -23,8 +23,8 @@ text files and 205 intervening messages. It never connects to the user's data.
 The 2026-09-27 desktop visual check verified steps 1–3 in Chrome against the real
 renderer and isolated server. The downloaded launch-brief.txt matched the original
 49-byte fixture contents. It caught and corrected a synthetic scroll event
-that re-enabled bottom-follow before source navigation completed. Native iPhone
-visual acceptance is still pending; iPhone Mirroring reports the phone in use.
+that re-enabled bottom-follow before source navigation completed. Native iPhone52 visual inspection verified the Shared files empty state after
+reconnection. A populated native file preview and source jump remain pending.
 
 Contract checks:
 
