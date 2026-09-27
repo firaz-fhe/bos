@@ -91,3 +91,21 @@ that restoration retains shared history and completed results, cancels old queue
 work, and marks previously dispatched work Outcome unknown. Per-room sequence
 barriers suppress legacy recovery, including the message-before-ledger crash
 window. Only new deliberate requests may run after a restore.
+
+
+## Shared progress and remote cancellation
+
+The room receives fixed working/step/approval status text. Provider tool names,
+commands, paths and approval arguments are not copied into shared progress.
+`shared/shared-request.test.ts` checks that boundary. The isolated request API
+fixture also checks that a private tool command does not enter shared history.
+
+`server/remote-bot-bridge.test.ts` uses a fake linked home to prove cancellation
+sends an interrupt only to the exact shared thread, leaving the owner's private
+thread untouched. Waiting-for-owner progress names the owner without exposing
+the approval tool/arguments or automatically resolving it.
+
+The request API fixture runs overlapping requests to the same bot in two rooms:
+the second room stays queued, a cancel addressed through the wrong room is
+rejected, and the correctly cancelled queued request never dispatches. These are
+isolated protocol checks; the final two-host device acceptance remains required.
