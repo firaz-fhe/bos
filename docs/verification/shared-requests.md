@@ -23,7 +23,7 @@ Open the printed preview in the browser and select **Launch crew**.
 - Open **Conversation details → Bot requests**. Both cards show Completed,
   the bot owner and requester, with working **Show request** and **Show result** links.
 - Completed cards have no Stop button. Native iOS exposes the same list under
-  conversation details; native rendering needs a simulator/device check.
+  conversation details.
 
 Stop the launcher with Ctrl-C. Its exact fixture server and temporary home
 are cleaned up; the printed server log remains as evidence.
@@ -55,6 +55,39 @@ membership; cancellation additionally requires the exact requester or bot owner.
 The request ledger fails closed if corrupt, so missing dispatch evidence never
 silently becomes permission to repeat work.
 
-Approval resolution, actual remote-host cancellation, concurrency/load limits and
-iPhone rendering still need their separate acceptance checks. A passing simulator
-build is not native UI acceptance.
+## Native offline fixture
+
+Build the Debug iOS app and install it only on an owned disposable simulator.
+Launch with `-shared-chat-preview`, `-companion.prefs.islandIntro never`,
+`-companion.onboarding.welcomeSeen YES` and `-companion.onboarding.notificationsSeen YES`.
+This debug-only URL protocol intercepts every API call; the background host event
+stream is disabled. It uses synthetic Alex/Maya identities and no real credentials.
+
+Open Launch crew. The fixture has 220 messages, a bundled image attached to message
+1, two eligible bots and three request cards: completed, another person's working
+request and your queued request. Check:
+
+- Typing @ shows Pepper/Alex and Willow/Maya; selection retains the draft.
+- Shared files opens launch-board.png in native preview. Show message loads and
+  navigates to the older original message, preserving the draft.
+- Bot requests shows owner/requester and correct state. Only your queued request
+  has Stop. Stopping changes it to Stopped with the before-start explanation.
+- Show result dismisses details and returns to Pepper's result. A latest-message
+  button must not linger when the conversation is already at its end.
+- Test the software keyboard, bottom-follow when mention chips change height,
+  and intentional scrollback. Record gesture tests as unverified if simulator
+  automation cannot deliver a usable scroll gesture.
+
+Native preview, older file source navigation, request controls, result navigation,
+mention selection and keyboard avoidance were visually checked on the disposable
+simulator on 27 September. Deliberate drag scrollback still needs verification.
+Approval resolution, actual remote-host cancellation and concurrency/load limits
+remain separate checks. A passing simulator build is not device acceptance.
+
+## Restoring backups
+
+`server/workspace-backup.test.ts` and `server/shared-request-store.test.ts` check
+that restoration retains shared history and completed results, cancels old queued
+work, and marks previously dispatched work Outcome unknown. Per-room sequence
+barriers suppress legacy recovery, including the message-before-ledger crash
+window. Only new deliberate requests may run after a restore.
