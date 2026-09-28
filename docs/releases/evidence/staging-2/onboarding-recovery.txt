@@ -1,15 +1,15 @@
 
  RUN  v4.1.10 /Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging
 
-(node:56179) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(node:63106) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:56195) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(node:63121) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:56196) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(node:63122) ExperimentalWarning: SQLite is an experimental feature and might change at any time
 (Use `node --trace-warnings ...` to show where the warning was created)
 
  Test Files  3 passed (3)
       Tests  6 passed (6)
-   Start at  17:07:38
-   Duration  2.94s (transform 263ms, setup 320ms, import 335ms, tests 1.73s, environment 0ms)
+   Start at  17:11:19
+   Duration  3.04s (transform 266ms, setup 323ms, import 340ms, tests 1.85s, environment 0ms)
 
