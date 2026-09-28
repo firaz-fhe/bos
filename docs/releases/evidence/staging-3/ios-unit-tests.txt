@@ -1,0 +1,1349 @@
+warning: 'ios': found 2 file(s) which are unhandled; explicitly declare them as resources or exclude from the target
+    /Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/AppShared/NotificationAvatarCache.swift
+    /Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/AppShared/OpenMausSharedInbox.swift
+Building for debugging...
+[0/10] Write sources
+[4/10] /Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/.build/arm64-apple-macosx/debug/CompanionCorePackageTests.derived/runner.swift
+[5/10] Write sources
+[6/10] Copying Fixtures
+[7/10] Write swift-version--58304C5D6DBC2206.txt
+[9/43] Emitting module CompanionCore
+[10/46] Compiling CompanionCore AttentionInbox.swift
+[11/46] Compiling CompanionCore BotActivityContent.swift
+[12/46] Compiling CompanionCore BotAvatarRendering.swift
+[13/46] Compiling CompanionCore Chat.swift
+[14/46] Compiling CompanionCore ElevenLabs.swift
+[15/46] Compiling CompanionCore Endpoint.swift
+[16/46] Compiling CompanionCore Failover.swift
+[17/46] Compiling CompanionCore FlatMascotBodies.swift
+[18/46] Compiling CompanionCore Frames.swift
+[19/46] Compiling CompanionCore InteractivePop.swift
+[20/46] Compiling CompanionCore Markdown.swift
+[21/46] Compiling CompanionCore MausBodies.swift
+[22/46] Compiling CompanionCore Onboarding.swift
+[23/46] Compiling CompanionCore PhoneSecret.swift
+[24/46] Compiling CompanionCore PinnedChats.swift
+[25/46] Compiling CompanionCore AgentProfileVoiceState.swift
+[26/46] Compiling CompanionCore AnimatedImage.swift
+[27/46] Compiling CompanionCore AskQuestion.swift
+[28/46] Compiling CompanionCore AttachedMessageContent.swift
+[29/46] Compiling CompanionCore SSE.swift
+[30/46] Compiling CompanionCore SectionSelection.swift
+[31/46] Compiling CompanionCore SharedChat.swift
+[32/46] Compiling CompanionCore ThreadNavigation.swift
+[33/46] Compiling CompanionCore ToolSteps.swift
+[34/46] Compiling CompanionCore Walkie.swift
+[35/46] Compiling CompanionCore ChatPreferences.swift
+[36/46] Compiling CompanionCore Client.swift
+[37/46] Compiling CompanionCore ConnectionRegistry.swift
+[38/46] Compiling CompanionCore Dictation.swift
+[39/46] Compiling CompanionCore SharedDeliveryDraft.swift
+[40/46] Compiling CompanionCore SharedDraftArchive.swift
+[41/46] Compiling CompanionCore Store.swift
+[42/46] Compiling CompanionCore MausSilhouette.swift
+[43/46] Compiling CompanionCore MessageAttachments.swift
+[44/46] Compiling CompanionCore Models.swift
+[45/99] Emitting module PairingPersistence
+[46/99] Compiling PairingPersistence OpenMausSharedKeychain.swift
+[47/99] Compiling PairingPersistence OpenMausSharedConnectionStore.swift
+[48/99] Compiling PairingPersistence OpenMausSharedConfiguration.swift
+[49/101] Compiling CompanionCoreTests InteractivePopTests.swift
+[50/101] Compiling CompanionCoreTests MarkdownTests.swift
+[51/101] Compiling CompanionCoreTests MausBodiesTests.swift
+[52/101] Compiling CompanionCoreTests MessageAttachmentsTests.swift
+[53/101] Compiling CompanionCoreTests OnboardingTests.swift
+[54/106] Compiling CompanionCoreTests AnimatedImageTests.swift
+/Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/Tests/CompanionCoreTests/AttentionInboxTests.swift:115:13: warning: variable 'bot' was never mutated; consider changing to 'let' constant
+113 |         tasks: [BotTask]? = nil, unread: Bool = false
+114 |     ) -> Bot {
+115 |         var bot = Bot(
+    |             `- warning: variable 'bot' was never mutated; consider changing to 'let' constant
+116 |             id: id, threadId: threadId, name: name, title: name,
+117 |             description: "", notifications: true, color: "green", unread: unread,
+[55/106] Compiling CompanionCoreTests ApprovalClientTests.swift
+/Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/Tests/CompanionCoreTests/AttentionInboxTests.swift:115:13: warning: variable 'bot' was never mutated; consider changing to 'let' constant
+113 |         tasks: [BotTask]? = nil, unread: Bool = false
+114 |     ) -> Bot {
+115 |         var bot = Bot(
+    |             `- warning: variable 'bot' was never mutated; consider changing to 'let' constant
+116 |             id: id, threadId: threadId, name: name, title: name,
+117 |             description: "", notifications: true, color: "green", unread: unread,
+[56/106] Compiling CompanionCoreTests ArchiveClientTests.swift
+/Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/Tests/CompanionCoreTests/AttentionInboxTests.swift:115:13: warning: variable 'bot' was never mutated; consider changing to 'let' constant
+113 |         tasks: [BotTask]? = nil, unread: Bool = false
+114 |     ) -> Bot {
+115 |         var bot = Bot(
+    |             `- warning: variable 'bot' was never mutated; consider changing to 'let' constant
+116 |             id: id, threadId: threadId, name: name, title: name,
+117 |             description: "", notifications: true, color: "green", unread: unread,
+[57/106] Compiling CompanionCoreTests AskQuestionTests.swift
+/Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/Tests/CompanionCoreTests/AttentionInboxTests.swift:115:13: warning: variable 'bot' was never mutated; consider changing to 'let' constant
+113 |         tasks: [BotTask]? = nil, unread: Bool = false
+114 |     ) -> Bot {
+115 |         var bot = Bot(
+    |             `- warning: variable 'bot' was never mutated; consider changing to 'let' constant
+116 |             id: id, threadId: threadId, name: name, title: name,
+117 |             description: "", notifications: true, color: "green", unread: unread,
+[58/106] Compiling CompanionCoreTests AttachedMessageContentTests.swift
+/Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/Tests/CompanionCoreTests/AttentionInboxTests.swift:115:13: warning: variable 'bot' was never mutated; consider changing to 'let' constant
+113 |         tasks: [BotTask]? = nil, unread: Bool = false
+114 |     ) -> Bot {
+115 |         var bot = Bot(
+    |             `- warning: variable 'bot' was never mutated; consider changing to 'let' constant
+116 |             id: id, threadId: threadId, name: name, title: name,
+117 |             description: "", notifications: true, color: "green", unread: unread,
+[59/106] Compiling CompanionCoreTests AttentionInboxTests.swift
+/Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging/ios/Tests/CompanionCoreTests/AttentionInboxTests.swift:115:13: warning: variable 'bot' was never mutated; consider changing to 'let' constant
+113 |         tasks: [BotTask]? = nil, unread: Bool = false
+114 |     ) -> Bot {
+115 |         var bot = Bot(
+    |             `- warning: variable 'bot' was never mutated; consider changing to 'let' constant
+116 |             id: id, threadId: threadId, name: name, title: name,
+117 |             description: "", notifications: true, color: "green", unread: unread,
+[60/106] Emitting module PairingPersistenceTests
+[61/106] Compiling PairingPersistenceTests RecoveryTests.swift
+[62/106] Compiling CompanionCoreTests OverviewClientTests.swift
+[63/106] Compiling CompanionCoreTests PairingTests.swift
+[64/106] Compiling CompanionCoreTests PhoneSecretTests.swift
+[65/106] Compiling CompanionCoreTests PinnedChatsTests.swift
+[66/106] Compiling CompanionCoreTests ProfileClientTests.swift
+[67/106] Emitting module CompanionCoreTests
+[68/106] Compiling CompanionCoreTests BotActivityContentTests.swift
+[69/106] Compiling CompanionCoreTests BotAvatarRenderingTests.swift
+[70/106] Compiling CompanionCoreTests BotModelClientTests.swift
+[71/106] Compiling CompanionCoreTests BotTaskStatusTests.swift
+[72/106] Compiling CompanionCoreTests ChatDestinationTests.swift
+[73/106] Compiling CompanionCoreTests ChatPreferencesTests.swift
+[74/106] Compiling CompanionCoreTests EndpointRefreshTests.swift
+[75/106] Compiling CompanionCoreTests EventStreamTests.swift
+[76/106] Compiling CompanionCoreTests FailoverTests.swift
+[77/106] Compiling CompanionCoreTests FlatMascotBodiesTests.swift
+[78/106] Compiling CompanionCoreTests GeneratedImageTests.swift
+[79/106] Compiling CompanionCoreTests RoutineClientTests.swift
+[80/106] Compiling CompanionCoreTests SSETests.swift
+[81/106] Compiling CompanionCoreTests SectionSelectionTests.swift
+[82/106] Compiling CompanionCoreTests ServerPairingTests.swift
+[83/106] Compiling CompanionCoreTests ShareClientTests.swift
+[84/106] Compiling CompanionCoreTests ConnectedAppsClientTests.swift
+[85/106] Compiling CompanionCoreTests ConnectionRegistryTests.swift
+[86/106] Compiling CompanionCoreTests ConnectionTests.swift
+[87/106] Compiling CompanionCoreTests DecodingTests.swift
+[88/106] Compiling CompanionCoreTests DictationTests.swift
+[89/106] Compiling CompanionCoreTests ElevenLabsTests.swift
+[90/106] Compiling CompanionCoreTests SharedConversationTests.swift
+[91/106] Compiling CompanionCoreTests SharedDeliveryTests.swift
+[92/106] Compiling CompanionCoreTests SidebarSectionsClientTests.swift
+[93/106] Compiling CompanionCoreTests StoreTests.swift
+[94/106] Compiling CompanionCoreTests ThreadNavigationTests.swift
+[95/106] Compiling CompanionCoreTests ProfileRoutinePolicyTests.swift
+[96/106] Compiling CompanionCoreTests QueuedSendClientTests.swift
+[97/106] Compiling CompanionCoreTests QueuedSendTests.swift
+[98/106] Compiling CompanionCoreTests RemoteBotTests.swift
+[99/106] Compiling CompanionCoreTests RosterPreviewTests.swift
+[100/106] Compiling CompanionCoreTests ToolStepsTests.swift
+[101/106] Compiling CompanionCoreTests VoiceProviderClientTests.swift
+[102/106] Compiling CompanionCoreTests WaitingThreadHydrationTests.swift
+[103/106] Compiling CompanionCoreTests WalkieTests.swift
+[104/106] Compiling CompanionCoreTests resource_bundle_accessor.swift
+[105/108] Compiling CompanionCorePackageTests runner.swift
+[106/108] Emitting module CompanionCorePackageTests
+[106/108] Write Objects.LinkFileList
+[107/108] Linking CompanionCorePackageTests
+Build complete! (26.11s)
+Test Suite 'All tests' started at 2026-09-28 18:28:30.549.
+Test Suite 'CompanionCorePackageTests.xctest' started at 2026-09-28 18:28:30.561.
+Test Suite 'AnimatedImageTests' started at 2026-09-28 18:28:30.561.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testDurationAlwaysMatchesTheFrameCountTimesTheTick]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testDurationAlwaysMatchesTheFrameCountTimesTheTick]' passed (0.009 seconds).
+Test Case '-[CompanionCoreTests.AnimatedImageTests testEqualDelaysProduceOneEntryPerFrame]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testEqualDelaysProduceOneEntryPerFrame]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.AnimatedImageTests testExpansionIsBoundedForAWildlyLopsidedLoop]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testExpansionIsBoundedForAWildlyLopsidedLoop]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.AnimatedImageTests testFrameOrientationIsNormalizedWhileDownsampling]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testFrameOrientationIsNormalizedWhileDownsampling]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.AnimatedImageTests testFramesAreDecodedWithinTheAvatarPixelBudget]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testFramesAreDecodedWithinTheAvatarPixelBudget]' passed (0.102 seconds).
+Test Case '-[CompanionCoreTests.AnimatedImageTests testGarbageDecodesAsNilRatherThanThrowing]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testGarbageDecodesAsNilRatherThanThrowing]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AnimatedImageTests testLongerFramesAreHeldByRepeatingThemOnTheShortestTick]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testLongerFramesAreHeldByRepeatingThemOnTheShortestTick]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.AnimatedImageTests testStillImageDecodesAsNilSoTheViewFallsBackToUIImage]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testStillImageDecodesAsNilSoTheViewFallsBackToUIImage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AnimatedImageTests testZeroDelayIsTreatedAsTheBrowserDefaultInsteadOfSpinning]' started.
+Test Case '-[CompanionCoreTests.AnimatedImageTests testZeroDelayIsTreatedAsTheBrowserDefaultInsteadOfSpinning]' passed (0.001 seconds).
+Test Suite 'AnimatedImageTests' passed at 2026-09-28 18:28:30.678.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.116 (0.117) seconds
+Test Suite 'ApprovalClientTests' started at 2026-09-28 18:28:30.678.
+Test Case '-[CompanionCoreTests.ApprovalClientTests testConversationActionsKeepTheCapturedThread]' started.
+Test Case '-[CompanionCoreTests.ApprovalClientTests testConversationActionsKeepTheCapturedThread]' passed (0.012 seconds).
+Test Case '-[CompanionCoreTests.ApprovalClientTests testDenialDoesNotNeedAReviewedHash]' started.
+Test Case '-[CompanionCoreTests.ApprovalClientTests testDenialDoesNotNeedAReviewedHash]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ApprovalClientTests testSkillApprovalEchoesTheReviewedHash]' started.
+Test Case '-[CompanionCoreTests.ApprovalClientTests testSkillApprovalEchoesTheReviewedHash]' passed (0.001 seconds).
+Test Suite 'ApprovalClientTests' passed at 2026-09-28 18:28:30.691.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.013 (0.013) seconds
+Test Suite 'ArchiveClientTests' started at 2026-09-28 18:28:30.691.
+Test Case '-[CompanionCoreTests.ArchiveClientTests testArchivePatchesTheTaskRouteWithATimestampAndUnarchiveWithNull]' started.
+Test Case '-[CompanionCoreTests.ArchiveClientTests testArchivePatchesTheTaskRouteWithATimestampAndUnarchiveWithNull]' passed (0.001 seconds).
+Test Suite 'ArchiveClientTests' passed at 2026-09-28 18:28:30.692.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'AskQuestionTests' started at 2026-09-28 18:28:30.692.
+Test Case '-[CompanionCoreTests.AskQuestionTests testAnOrdinaryCardHasNoQuestions]' started.
+Test Case '-[CompanionCoreTests.AskQuestionTests testAnOrdinaryCardHasNoQuestions]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AskQuestionTests testAStructuredAskIsAQuestion]' started.
+Test Case '-[CompanionCoreTests.AskQuestionTests testAStructuredAskIsAQuestion]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AskQuestionTests testCarriesTheAnsweredTextTheHarnessRecords]' started.
+Test Case '-[CompanionCoreTests.AskQuestionTests testCarriesTheAnsweredTextTheHarnessRecords]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AskQuestionTests testDecodesAQuestionThatOffersNoOptions]' started.
+Test Case '-[CompanionCoreTests.AskQuestionTests testDecodesAQuestionThatOffersNoOptions]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AskQuestionTests testDecodesTheModelsQuestionsAndTheirOptions]' started.
+Test Case '-[CompanionCoreTests.AskQuestionTests testDecodesTheModelsQuestionsAndTheirOptions]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AskQuestionTests testFormatsTheAnswerTheModelWillRead]' started.
+Test Case '-[CompanionCoreTests.AskQuestionTests testFormatsTheAnswerTheModelWillRead]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AskQuestionTests testOmitsAnUnansweredQuestionRatherThanImplyingOne]' started.
+Test Case '-[CompanionCoreTests.AskQuestionTests testOmitsAnUnansweredQuestionRatherThanImplyingOne]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AskQuestionTests testSettledCardDropsTheModelFacingLeadIn]' started.
+Test Case '-[CompanionCoreTests.AskQuestionTests testSettledCardDropsTheModelFacingLeadIn]' passed (0.000 seconds).
+Test Suite 'AskQuestionTests' passed at 2026-09-28 18:28:30.695.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'AttachedMessageContentTests' started at 2026-09-28 18:28:30.695.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testBasenamesProvidedDisplayName]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testBasenamesProvidedDisplayName]' passed (0.002 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testBoundsAndFlattensUntrustedDisplayNames]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testBoundsAndFlattensUntrustedDisplayNames]' passed (0.004 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testFallsBackToBasenameForOlderFileTags]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testFallsBackToBasenameForOlderFileTags]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testKeepsPreBlocksThroughClosingTagAcrossBlankLines]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testKeepsPreBlocksThroughClosingTagAcrossBlankLines]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testKeepsSpecialAndGenericHTMLBlocksLiteral]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testKeepsSpecialAndGenericHTMLBlocksLiteral]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testKeepsTableAndNestedSectionBlocksThroughBlankLine]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testKeepsTableAndNestedSectionBlocksThroughBlankLine]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testLeavesAttachmentExamplesInsideHTMLContextsVisible]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testLeavesAttachmentExamplesInsideHTMLContextsVisible]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testLeavesFencedAndIndentedAttachmentExamplesVisible]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testLeavesFencedAndIndentedAttachmentExamplesVisible]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testLeavesInlineExamplesAndUnrelatedTagsVisible]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testLeavesInlineExamplesAndUnrelatedTagsVisible]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testRetainsDecodedPathForAuthenticatedPreviewRequest]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testRetainsDecodedPathForAuthenticatedPreviewRequest]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testSplitsSharedImagesAndNamedFilesFromVisibleText]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testSplitsSharedImagesAndNamedFilesFromVisibleText]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testUnclosedStreamingFenceKeepsTransportLookingLinesLiteral]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testUnclosedStreamingFenceKeepsTransportLookingLinesLiteral]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testUsesOriginalNameFromNewImageTags]' started.
+Test Case '-[CompanionCoreTests.AttachedMessageContentTests testUsesOriginalNameFromNewImageTags]' passed (0.000 seconds).
+Test Suite 'AttachedMessageContentTests' passed at 2026-09-28 18:28:30.704.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.008 (0.009) seconds
+Test Suite 'AttentionInboxTests' started at 2026-09-28 18:28:30.704.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testAttentionRowTapIsASafeNoOpWhenTheBotIsMissing]' started.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testAttentionRowTapIsASafeNoOpWhenTheBotIsMissing]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttentionInboxTests testAttentionRowTapResolvesTheChatDestinationBot]' started.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testAttentionRowTapResolvesTheChatDestinationBot]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttentionInboxTests testCollectsOnlyAttentionThreadsWaitingFirstAcrossBots]' started.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testCollectsOnlyAttentionThreadsWaitingFirstAcrossBots]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttentionInboxTests testEqualRanksKeepStoredOrderAcrossBots]' started.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testEqualRanksKeepStoredOrderAcrossBots]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttentionInboxTests testExcludesTheExceptedBotAndKeepsQueuedThreads]' started.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testExcludesTheExceptedBotAndKeepsQueuedThreads]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttentionInboxTests testFallsBackToTheBotsOwnLineWhenItHasNoTaskListYet]' started.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testFallsBackToTheBotsOwnLineWhenItHasNoTaskListYet]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttentionInboxTests testNeverOffersAHiddenBotOrARoutineRun]' started.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testNeverOffersAHiddenBotOrARoutineRun]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.AttentionInboxTests testOrdersWaitingAheadOfUnreadAcrossBotsNotJustInsideOne]' started.
+Test Case '-[CompanionCoreTests.AttentionInboxTests testOrdersWaitingAheadOfUnreadAcrossBotsNotJustInsideOne]' passed (0.000 seconds).
+Test Suite 'AttentionInboxTests' passed at 2026-09-28 18:28:30.706.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'BotActivityContentTests' started at 2026-09-28 18:28:30.706.
+Test Case '-[CompanionCoreTests.BotActivityContentTests testAnsweredDismissedAndWorkingStatesOfferNoAction]' started.
+Test Case '-[CompanionCoreTests.BotActivityContentTests testAnsweredDismissedAndWorkingStatesOfferNoAction]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotActivityContentTests testEmptyTargetOrRequestCannotOfferButtons]' started.
+Test Case '-[CompanionCoreTests.BotActivityContentTests testEmptyTargetOrRequestCannotOfferButtons]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotActivityContentTests testLegacyActivityDecodesButCannotAnswerUsingOriginalAttributes]' started.
+Test Case '-[CompanionCoreTests.BotActivityContentTests testLegacyActivityDecodesButCannotAnswerUsingOriginalAttributes]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotActivityContentTests testQuestionKeepsItsExactChoicesAndResponseKind]' started.
+Test Case '-[CompanionCoreTests.BotActivityContentTests testQuestionKeepsItsExactChoicesAndResponseKind]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotActivityContentTests testReusedActivityTargetsCurrentSiblingThreadEvenWhenRequestIdIsTheSame]' started.
+Test Case '-[CompanionCoreTests.BotActivityContentTests testReusedActivityTargetsCurrentSiblingThreadEvenWhenRequestIdIsTheSame]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotActivityContentTests testSkillApprovalStillRequiresOpeningTheChat]' started.
+Test Case '-[CompanionCoreTests.BotActivityContentTests testSkillApprovalStillRequiresOpeningTheChat]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotActivityContentTests testStaleOrChangedIntentCannotAnswer]' started.
+Test Case '-[CompanionCoreTests.BotActivityContentTests testStaleOrChangedIntentCannotAnswer]' passed (0.000 seconds).
+Test Suite 'BotActivityContentTests' passed at 2026-09-28 18:28:30.708.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'BotAvatarRenderingTests' started at 2026-09-28 18:28:30.708.
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testAFailedFetchNeverDrawsTheImage]' started.
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testAFailedFetchNeverDrawsTheImage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testEveryCropFallsBackToTheGradientMascotWithoutAPicture]' started.
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testEveryCropFallsBackToTheGradientMascotWithoutAPicture]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testFlatCropsWearTheImageItself]' started.
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testFlatCropsWearTheImageItself]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testGeneratingFromAMascotBotTakesTheServersCrop]' started.
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testGeneratingFromAMascotBotTakesTheServersCrop]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testMascotAlwaysDrawsTheGradientBody]' started.
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testMascotAlwaysDrawsTheGradientBody]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testMovingThePickerMidFlightWinsOverTheServersPick]' started.
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testMovingThePickerMidFlightWinsOverTheServersPick]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testNoServerCropFallsBackToCircle]' started.
+Test Case '-[CompanionCoreTests.BotAvatarRenderingTests testNoServerCropFallsBackToCircle]' passed (0.000 seconds).
+Test Suite 'BotAvatarRenderingTests' passed at 2026-09-28 18:28:30.710.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'BotModelClientTests' started at 2026-09-28 18:28:30.710.
+Test Case '-[CompanionCoreTests.BotModelClientTests testConfirmedPermissionResetIsExplicitAndThreadScoped]' started.
+Test Case '-[CompanionCoreTests.BotModelClientTests testConfirmedPermissionResetIsExplicitAndThreadScoped]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.BotModelClientTests testDecodesOptionalEffortAndInstanceEffortLevels]' started.
+Test Case '-[CompanionCoreTests.BotModelClientTests testDecodesOptionalEffortAndInstanceEffortLevels]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.BotModelClientTests testEngineDefaultOmitsEffortRatherThanSendingNull]' started.
+Test Case '-[CompanionCoreTests.BotModelClientTests testEngineDefaultOmitsEffortRatherThanSendingNull]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotModelClientTests testRejectsUnsafeBotIDsBeforeNetworking]' started.
+Test Case '-[CompanionCoreTests.BotModelClientTests testRejectsUnsafeBotIDsBeforeNetworking]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotModelClientTests testThreadModelWriteRejectsUnsafeThreadBeforeNetworking]' started.
+Test Case '-[CompanionCoreTests.BotModelClientTests testThreadModelWriteRejectsUnsafeThreadBeforeNetworking]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotModelClientTests testThreadModelWriteStaysPinnedWhenTheServerSelectsAnotherThread]' started.
+Test Case '-[CompanionCoreTests.BotModelClientTests testThreadModelWriteStaysPinnedWhenTheServerSelectsAnotherThread]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.BotModelClientTests testUpdatesModelAndReasoningThroughTheNarrowRoute]' started.
+Test Case '-[CompanionCoreTests.BotModelClientTests testUpdatesModelAndReasoningThroughTheNarrowRoute]' passed (0.001 seconds).
+Test Suite 'BotModelClientTests' passed at 2026-09-28 18:28:30.715.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'BotTaskStatusTests' started at 2026-09-28 18:28:30.715.
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testDemandsAttentionCoversEachLiveStateWithoutLumpingThem]' started.
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testDemandsAttentionCoversEachLiveStateWithoutLumpingThem]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testProjectionCarriesTheWaitIntoThreadViews]' started.
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testProjectionCarriesTheWaitIntoThreadViews]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testTeammateWaitIsAWaitNotWork]' started.
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testTeammateWaitIsAWaitNotWork]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testWaitingOnTeammateDecodesAdditively]' started.
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testWaitingOnTeammateDecodesAdditively]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testWorkingIsActivityOrFlagEachAlone]' started.
+Test Case '-[CompanionCoreTests.BotTaskStatusTests testWorkingIsActivityOrFlagEachAlone]' passed (0.000 seconds).
+Test Suite 'BotTaskStatusTests' passed at 2026-09-28 18:28:30.716.
+	 Executed 5 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'ChatDestinationTests' started at 2026-09-28 18:28:30.716.
+Test Case '-[CompanionCoreTests.ChatDestinationTests testBotChatAddressesItsCurrentlySelectedThread]' started.
+Test Case '-[CompanionCoreTests.ChatDestinationTests testBotChatAddressesItsCurrentlySelectedThread]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatDestinationTests testIdsPropagateDistinctlyAndCasesNeverCross]' started.
+Test Case '-[CompanionCoreTests.ChatDestinationTests testIdsPropagateDistinctlyAndCasesNeverCross]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatDestinationTests testMovingTheEnumKeepsIdentityAndThreadProjection]' started.
+Test Case '-[CompanionCoreTests.ChatDestinationTests testMovingTheEnumKeepsIdentityAndThreadProjection]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatDestinationTests testRoomChatAddressesTheSharedThread]' started.
+Test Case '-[CompanionCoreTests.ChatDestinationTests testRoomChatAddressesTheSharedThread]' passed (0.000 seconds).
+Test Suite 'ChatDestinationTests' passed at 2026-09-28 18:28:30.717.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'ChatPreferencesTests' started at 2026-09-28 18:28:30.717.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testAnEmptyStoreFallsBackToDefaults]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testAnEmptyStoreFallsBackToDefaults]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testCorruptStoreFallsBackToDefaultsRatherThanNoChips]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testCorruptStoreFallsBackToDefaultsRatherThanNoChips]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testDefaultsAreTheFourChipsTheComposerAlreadyShows]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testDefaultsAreTheFourChipsTheComposerAlreadyShows]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testDeletingEveryChipIsRespectedRatherThanReset]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testDeletingEveryChipIsRespectedRatherThanReset]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testDuplicateQuickReplyIDsFallBackToDefaults]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testDuplicateQuickReplyIDsFallBackToDefaults]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testEmptyQuickReplyIDFallsBackToDefaults]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testEmptyQuickReplyIDFallsBackToDefaults]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testEmptyTranscriptStaysEmptyAtEveryLevel]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testEmptyTranscriptStaysEmptyAtEveryLevel]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testFullKeepsEveryMessageInOrder]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testFullKeepsEveryMessageInOrder]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testHiddenDropsActivityAndKeepsTheRest]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testHiddenDropsActivityAndKeepsTheRest]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testHiddenDropsFailedActivityToo]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testHiddenDropsFailedActivityToo]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testIslandIntroDefaultsToOncePerBot]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testIslandIntroDefaultsToOncePerBot]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testQuickRepliesSurviveARoundTrip]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testQuickRepliesSurviveARoundTrip]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedBreaksOutAFailureOnItsOwn]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedBreaksOutAFailureOnItsOwn]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedCollapsesConsecutiveActivityIntoOneRun]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedCollapsesConsecutiveActivityIntoOneRun]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedLeavesALoneActivityAlone]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedLeavesALoneActivityAlone]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedRunReportsStillRunningWhileAStepHasNoVerdict]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedRunReportsStillRunningWhileAStepHasNoVerdict]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedSplitsRunsAroundOtherMessages]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testReducedSplitsRunsAroundOtherMessages]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testRowCarriesTheTimeAndSenderOfItsFirstMessage]' started.
+Test Case '-[CompanionCoreTests.ChatPreferencesTests testRowCarriesTheTimeAndSenderOfItsFirstMessage]' passed (0.000 seconds).
+Test Suite 'ChatPreferencesTests' passed at 2026-09-28 18:28:30.722.
+	 Executed 18 tests, with 0 failures (0 unexpected) in 0.003 (0.005) seconds
+Test Suite 'ConnectedAppsClientTests' started at 2026-09-28 18:28:30.722.
+Test Case '-[CompanionCoreTests.ConnectedAppsClientTests testAuthorizesAnotherAccountWithAnExplicitAlias]' started.
+Test Case '-[CompanionCoreTests.ConnectedAppsClientTests testAuthorizesAnotherAccountWithAnExplicitAlias]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ConnectedAppsClientTests testLoadsCompleteAccountInventoryRatherThanInferringItFromTheCatalog]' started.
+Test Case '-[CompanionCoreTests.ConnectedAppsClientTests testLoadsCompleteAccountInventoryRatherThanInferringItFromTheCatalog]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ConnectedAppsClientTests testOmitsAWhitespaceOnlyAlias]' started.
+Test Case '-[CompanionCoreTests.ConnectedAppsClientTests testOmitsAWhitespaceOnlyAlias]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectedAppsClientTests testRejectsUnsafeToolkitComponentsAndAuthorizationURLsLocally]' started.
+Test Case '-[CompanionCoreTests.ConnectedAppsClientTests testRejectsUnsafeToolkitComponentsAndAuthorizationURLsLocally]' passed (0.001 seconds).
+Test Suite 'ConnectedAppsClientTests' passed at 2026-09-28 18:28:30.725.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'ConnectionRegistryTests' started at 2026-09-28 18:28:30.725.
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testDecodeNormalizesDuplicatesAndMissingActiveSelection]' started.
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testDecodeNormalizesDuplicatesAndMissingActiveSelection]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testMatchingUsesRoutesInsteadOfAComputerName]' started.
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testMatchingUsesRoutesInsteadOfAComputerName]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testMigrationLiftsTheLegacySingleConnection]' started.
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testMigrationLiftsTheLegacySingleConnection]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testRefreshingAConnectionDoesNotCreateADuplicate]' started.
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testRefreshingAConnectionDoesNotCreateADuplicate]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testRemovingActiveComputerFallsBackToAnotherSavedComputer]' started.
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testRemovingActiveComputerFallsBackToAnotherSavedComputer]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testUpsertAndSelectKeepIndependentComputers]' started.
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testUpsertAndSelectKeepIndependentComputers]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testValidRegistryWinsOverLegacyData]' started.
+Test Case '-[CompanionCoreTests.ConnectionRegistryTests testValidRegistryWinsOverLegacyData]' passed (0.000 seconds).
+Test Suite 'ConnectionRegistryTests' passed at 2026-09-28 18:28:30.727.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'ConnectionTests' started at 2026-09-28 18:28:30.727.
+Test Case '-[CompanionCoreTests.ConnectionTests testAcceptsOnlyAnHTTPSCloudDesktopSession]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testAcceptsOnlyAnHTTPSCloudDesktopSession]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testAnOlderSavedIPv6ConnectionIsNormalizedWhenUsed]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testAnOlderSavedIPv6ConnectionIsNormalizedWhenUsed]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testAPairResponseWithAndWithoutHostsDecodes]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testAPairResponseWithAndWithoutHostsDecodes]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testASavedConnectionWithoutFallbacksStillDecodes]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testASavedConnectionWithoutFallbacksStillDecodes]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testDropsTheInterfaceScopeFromAResolvedIPv4Address]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testDropsTheInterfaceScopeFromAResolvedIPv4Address]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testHostedTypedInviteCannotRetainDirectFallbacks]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testHostedTypedInviteCannotRetainDirectFallbacks]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testLegacyTailnetInviteDropsUnselectedLocalFallbackKinds]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testLegacyTailnetInviteDropsUnselectedLocalFallbackKinds]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testPairingConsentNormalizesLegacyDNSAndIPv6Origins]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testPairingConsentNormalizesLegacyDNSAndIPv6Origins]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testPairingConsentShowsNormalizedOriginInsteadOfTrustingQRName]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testPairingConsentShowsNormalizedOriginInsteadOfTrustingQRName]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testParsesADesktopPairingInvite]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testParsesADesktopPairingInvite]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testParsesAnOlderCodeOnlyPairingInvite]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testParsesAnOlderCodeOnlyPairingInvite]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testParsesHostnamesAndPorts]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testParsesHostnamesAndPorts]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testParsesIPv6WithAndWithoutAnExplicitPort]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testParsesIPv6WithAndWithoutAnExplicitPort]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testRejectsAmbiguousOrUnsafeAddresses]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testRejectsAmbiguousOrUnsafeAddresses]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testRejectsAnUntrustedOrMalformedPairingInvite]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testRejectsAnUntrustedOrMalformedPairingInvite]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testRejectsAPresentButInvalidSecureEntryKey]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testRejectsAPresentButInvalidSecureEntryKey]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testRejectsMalformedOrDowngradedTypedEndpoints]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testRejectsMalformedOrDowngradedTypedEndpoints]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testRetainsTheScopeZoneOnLinkLocalIPv6]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testRetainsTheScopeZoneOnLinkLocalIPv6]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testRouteConsentPolicyPersistsAcrossEncoding]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testRouteConsentPolicyPersistsAcrossEncoding]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ConnectionTests testSanitizesFallbackHostsAndKeepsOnlyTheConfirmedLocalOrigin]' started.
+Test Case '-[CompanionCoreTests.ConnectionTests testSanitizesFallbackHostsAndKeepsOnlyTheConfirmedLocalOrigin]' passed (0.000 seconds).
+Test Suite 'ConnectionTests' passed at 2026-09-28 18:28:30.734.
+	 Executed 20 tests, with 0 failures (0 unexpected) in 0.005 (0.007) seconds
+Test Suite 'DecodingTests' started at 2026-09-28 18:28:30.734.
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnknownFrameKindIsAbsorbedRatherThanThrown]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnknownFrameKindIsAbsorbedRatherThanThrown]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnknownMessageArrivesOverTheStream]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnknownMessageArrivesOverTheStream]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnknownMessageKindDecodes]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnknownMessageKindDecodes]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnknownRoleIsNotAttributedToYou]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnknownRoleIsNotAttributedToYou]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnreadableCredentialStoreIsNotAnEmptyInventory]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testAnUnreadableCredentialStoreIsNotAnEmptyInventory]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testAPendingApprovalIsActionableAndAnAnsweredOneIsNot]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testAPendingApprovalIsActionableAndAnAnsweredOneIsNot]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testAQuestionSendsItsChoiceAsAnAnswer]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testAQuestionSendsItsChoiceAsAnAnswer]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testAThreadOpenedByABotSaysSoInTheList]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testAThreadOpenedByABotSaysSoInTheList]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesABotOverview]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesABotOverview]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAChannelCredentialRequestWithItsSender]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAChannelCredentialRequestWithItsSender]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesADirectCredentialRequestWithoutSenderMetadata]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesADirectCredentialRequestWithoutSenderMetadata]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAMessageThatGainedAFieldWeDoNotKnow]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAMessageThatGainedAFieldWeDoNotKnow]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAnIntervalRoutineSchedule]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAnIntervalRoutineSchedule]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAnOptionsCard]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAnOptionsCard]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesANotifyFrame]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesANotifyFrame]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAReviewedSkillRequest]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAReviewedSkillRequest]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAReviewedSkillUpdate]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAReviewedSkillUpdate]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAThreadABotClosedAndOneStillOpen]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAThreadABotClosedAndOneStillOpen]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAThreadOpenedByABotAndOneOpenedByThePerson]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAThreadOpenedByABotAndOneOpenedByThePerson]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAThreadPage]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAThreadPage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAThreadRefOnAnActivityChipAndItsAbsence]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesAThreadRefOnAnActivityChipAndItsAbsence]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesEveryCapturedFrame]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesEveryCapturedFrame]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesInstancesAndConfig]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesInstancesAndConfig]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesMultipleConnectedAccountsAndNoAuthToolkit]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesMultipleConnectedAccountsAndNoAuthToolkit]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesSidebarSectionsOnBotsAndChannels]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesSidebarSectionsOnBotsAndChannels]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesTheCloudBackendAndItsAbsence]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesTheCloudBackendAndItsAbsence]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesTheFullFleetToo]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesTheFullFleetToo]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesTheHarnessErrorBodies]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesTheHarnessErrorBodies]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesThePagedFleet]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesThePagedFleet]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesThePairResponse]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testDecodesThePairResponse]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testFutureAvatarCropFallsBackWithoutDroppingTheBot]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testFutureAvatarCropFallsBackWithoutDroppingTheBot]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testFutureRoutineScheduleKindRemainsVisibleAsUnknown]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testFutureRoutineScheduleKindRemainsVisibleAsUnknown]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testMalformedAdvisoryEndpointDoesNotDiscardAPairedToken]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testMalformedAdvisoryEndpointDoesNotDiscardAPairedToken]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testNeverDecodesProviderSessionCursors]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testNeverDecodesProviderSessionCursors]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testNotificationTargetRequiresBothExactIds]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testNotificationTargetRequiresBothExactIds]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testOldAndNewAvatarProfilesDecodeTogether]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testOldAndNewAvatarProfilesDecodeTogether]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testOldSkillCardStillDecodesButCannotBeApproved]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testOldSkillCardStillDecodesButCannotBeApproved]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testOneMalformedBotDoesNotHideTheRestOfTheFleet]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testOneMalformedBotDoesNotHideTheRestOfTheFleet]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testOneUnknownMessageDoesNotSinkThePage]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testOneUnknownMessageDoesNotSinkThePage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testRoutineExecutionMarkerIsOptionalAndPreserved]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testRoutineExecutionMarkerIsOptionalAndPreserved]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DecodingTests testStorePreviewRemainsADecodableFleet]' started.
+Test Case '-[CompanionCoreTests.DecodingTests testStorePreviewRemainsADecodableFleet]' passed (0.001 seconds).
+Test Suite 'DecodingTests' passed at 2026-09-28 18:28:30.752.
+	 Executed 41 tests, with 0 failures (0 unexpected) in 0.014 (0.018) seconds
+Test Suite 'DictationTests' started at 2026-09-28 18:28:30.752.
+Test Case '-[CompanionCoreTests.DictationTests testABacktrackKeepsTheLongerTranscript]' started.
+Test Case '-[CompanionCoreTests.DictationTests testABacktrackKeepsTheLongerTranscript]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testAFreshSegmentIsAppendedAfterThePreviousText]' started.
+Test Case '-[CompanionCoreTests.DictationTests testAFreshSegmentIsAppendedAfterThePreviousText]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testALaterPartialReplacesAnEarlierOne]' started.
+Test Case '-[CompanionCoreTests.DictationTests testALaterPartialReplacesAnEarlierOne]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testALongerPartialReplacesTheCurrentOne]' started.
+Test Case '-[CompanionCoreTests.DictationTests testALongerPartialReplacesTheCurrentOne]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testASharedFirstWordIsNotEnoughToMergeAcrossSegments]' started.
+Test Case '-[CompanionCoreTests.DictationTests testASharedFirstWordIsNotEnoughToMergeAcrossSegments]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testAWordLevelRevisionReplacesInPlace]' started.
+Test Case '-[CompanionCoreTests.DictationTests testAWordLevelRevisionReplacesInPlace]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testBothEmptyStaysEmpty]' started.
+Test Case '-[CompanionCoreTests.DictationTests testBothEmptyStaysEmpty]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testEmptyComposerTakesTheTranscript]' started.
+Test Case '-[CompanionCoreTests.DictationTests testEmptyComposerTakesTheTranscript]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testEmptyPartialLeavesTheTranscript]' started.
+Test Case '-[CompanionCoreTests.DictationTests testEmptyPartialLeavesTheTranscript]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testEmptyTranscriptLeavesTheBase]' started.
+Test Case '-[CompanionCoreTests.DictationTests testEmptyTranscriptLeavesTheBase]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testEmptyTranscriptTakesTheNewPartial]' started.
+Test Case '-[CompanionCoreTests.DictationTests testEmptyTranscriptTakesTheNewPartial]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testEnglishIsNotDuplicatedWhenItIsAlreadyPreferred]' started.
+Test Case '-[CompanionCoreTests.DictationTests testEnglishIsNotDuplicatedWhenItIsAlreadyPreferred]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testEnglishIsTheLastResortWhenNothingElseIsOffered]' started.
+Test Case '-[CompanionCoreTests.DictationTests testEnglishIsTheLastResortWhenNothingElseIsOffered]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testHyphenAndUnderscoreAreTheSameCandidate]' started.
+Test Case '-[CompanionCoreTests.DictationTests testHyphenAndUnderscoreAreTheSameCandidate]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testPreferredLanguageComesFirst]' started.
+Test Case '-[CompanionCoreTests.DictationTests testPreferredLanguageComesFirst]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testPreferredLanguageProbingIsBounded]' started.
+Test Case '-[CompanionCoreTests.DictationTests testPreferredLanguageProbingIsBounded]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testSpokenTextAppendsAfterTypedText]' started.
+Test Case '-[CompanionCoreTests.DictationTests testSpokenTextAppendsAfterTypedText]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.DictationTests testWhitespaceAroundEitherSideIsTrimmed]' started.
+Test Case '-[CompanionCoreTests.DictationTests testWhitespaceAroundEitherSideIsTrimmed]' passed (0.000 seconds).
+Test Suite 'DictationTests' passed at 2026-09-28 18:28:30.756.
+	 Executed 18 tests, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'ElevenLabsTests' started at 2026-09-28 18:28:30.756.
+Test Case '-[CompanionCoreTests.ElevenLabsTests testDecodesVoicesWithTheirAccent]' started.
+Test Case '-[CompanionCoreTests.ElevenLabsTests testDecodesVoicesWithTheirAccent]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ElevenLabsTests testPrefersElevenLabsOwnWords]' started.
+Test Case '-[CompanionCoreTests.ElevenLabsTests testPrefersElevenLabsOwnWords]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ElevenLabsTests testRejectedKeysGetAnActionableMessage]' started.
+Test Case '-[CompanionCoreTests.ElevenLabsTests testRejectedKeysGetAnActionableMessage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ElevenLabsTests testSpeechRequestAsksForFlashMp3WithTheKeyInAHeader]' started.
+Test Case '-[CompanionCoreTests.ElevenLabsTests testSpeechRequestAsksForFlashMp3WithTheKeyInAHeader]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ElevenLabsTests testVoiceIdsAreEscapedIntoThePath]' started.
+Test Case '-[CompanionCoreTests.ElevenLabsTests testVoiceIdsAreEscapedIntoThePath]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ElevenLabsTests testVoicesRequestCarriesTheKey]' started.
+Test Case '-[CompanionCoreTests.ElevenLabsTests testVoicesRequestCarriesTheKey]' passed (0.000 seconds).
+Test Suite 'ElevenLabsTests' passed at 2026-09-28 18:28:30.758.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'EndpointRefreshTests' started at 2026-09-28 18:28:30.758.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testExistingLocalPairingLearnsHostedWithoutRepairing]' started.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testExistingLocalPairingLearnsHostedWithoutRepairing]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testExplicitLocalInviteNeverLearnsTailscaleOrAnotherLANOrigin]' started.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testExplicitLocalInviteNeverLearnsTailscaleOrAnotherLANOrigin]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testExplicitTailscaleInviteAllowsTailnetAndHostedAfterRefresh]' started.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testExplicitTailscaleInviteAllowsTailnetAndHostedAfterRefresh]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testFetchesTheAuthenticatedEndpointSnapshot]' started.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testFetchesTheAuthenticatedEndpointSnapshot]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testHostedInviteFiltersPairResponseAndRefreshToHTTPSOnly]' started.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testHostedInviteFiltersPairResponseAndRefreshToHTTPSOnly]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testProtectedConnectionDoesNotDowngradeWhenHostedIsWithdrawn]' started.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testProtectedConnectionDoesNotDowngradeWhenHostedIsWithdrawn]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testRejectsAReplacementSnapshotWithNoUsableEndpoint]' started.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testRejectsAReplacementSnapshotWithNoUsableEndpoint]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testSavedConnectionWithoutPolicyRetainsLegacyProtectedFailover]' started.
+Test Case '-[CompanionCoreTests.EndpointRefreshTests testSavedConnectionWithoutPolicyRetainsLegacyProtectedFailover]' passed (0.000 seconds).
+Test Suite 'EndpointRefreshTests' passed at 2026-09-28 18:28:30.762.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'EventStreamTests' started at 2026-09-28 18:28:30.762.
+Test Case '-[CompanionCoreTests.EventStreamTests testCancellingTheConsumerTearsDownTheRequest]' started.
+Test Case '-[CompanionCoreTests.EventStreamTests testCancellingTheConsumerTearsDownTheRequest]' passed (0.202 seconds).
+Test Case '-[CompanionCoreTests.EventStreamTests testDeliversEveryFrameAsItArrives]' started.
+Test Case '-[CompanionCoreTests.EventStreamTests testDeliversEveryFrameAsItArrives]' passed (0.095 seconds).
+Test Case '-[CompanionCoreTests.EventStreamTests testReportsAnUnauthorizedStreamRatherThanEndingQuietly]' started.
+Test Case '-[CompanionCoreTests.EventStreamTests testReportsAnUnauthorizedStreamRatherThanEndingQuietly]' passed (0.002 seconds).
+Test Case '-[CompanionCoreTests.EventStreamTests testSurvivesAFrameSplitAcrossReads]' started.
+Test Case '-[CompanionCoreTests.EventStreamTests testSurvivesAFrameSplitAcrossReads]' passed (0.071 seconds).
+Test Suite 'EventStreamTests' passed at 2026-09-28 18:28:31.133.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.370 (0.371) seconds
+Test Suite 'FailoverTests' started at 2026-09-28 18:28:31.133.
+Test Case '-[CompanionCoreTests.FailoverTests testADisallowedCleartextHeadCannotHoistTheActiveProtectedRoute]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testADisallowedCleartextHeadCannotHoistTheActiveProtectedRoute]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testAdviceNamesTheCandidateBeingTriedNext]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testAdviceNamesTheCandidateBeingTriedNext]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testAPriorityPreferredProtectedHeadOutranksTheActiveProtectedRoute]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testAPriorityPreferredProtectedHeadOutranksTheActiveProtectedRoute]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testAuthenticationFailureDoesNotAdvanceTheRoute]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testAuthenticationFailureDoesNotAdvanceTheRoute]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testDialingSwapsTheHostWithoutTouchingTheStoredOrder]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testDialingSwapsTheHostWithoutTouchingTheStoredOrder]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testExplicitLocalRouteCanUpgradeButNeverDowngradeAgain]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testExplicitLocalRouteCanUpgradeButNeverDowngradeAgain]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testGatewayAdviceNamesTheFallbackRoute]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testGatewayAdviceNamesTheFallbackRoute]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testManualAddressSelectionResetsInsteadOfWidensRoutePolicy]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testManualAddressSelectionResetsInsteadOfWidensRoutePolicy]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testOfflineSaysOffline]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testOfflineSaysOffline]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testOrderedHostsFallsBackToTheSingleStoredHost]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testOrderedHostsFallsBackToTheSingleStoredHost]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testOrderedHostsLeadsWithTheStoredHostAndDeduplicates]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testOrderedHostsLeadsWithTheStoredHostAndDeduplicates]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testPromoteReordersAndKeepsEveryCandidate]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testPromoteReordersAndKeepsEveryCandidate]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testPromotingAProtectedRouteLeadsAfterRestartDespiteAPriorityZeroLocalRoute]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testPromotingAProtectedRouteLeadsAfterRestartDespiteAPriorityZeroLocalRoute]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testPromotingAWorkingLegacyEndpointKeepsEveryLegacyFallback]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testPromotingAWorkingLegacyEndpointKeepsEveryLegacyFallback]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testProtectedLegacyHostDoesNotRetainLANFallbacks]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testProtectedLegacyHostDoesNotRetainLANFallbacks]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testRefusedConnectionPointsAtTheCompanionToggle]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testRefusedConnectionPointsAtTheCompanionToggle]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testRotatesOnAddressFailuresAndNothingElse]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testRotatesOnAddressFailuresAndNothingElse]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testRotatesPastTunnelGatewayFailuresButNotApplicationErrors]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testRotatesPastTunnelGatewayFailuresButNotApplicationErrors]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testSurvivesAnEmptyCandidateList]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testSurvivesAnEmptyCandidateList]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testTailnetKindRequiresATailscaleMagicDNSName]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testTailnetKindRequiresATailscaleMagicDNSName]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testTimeoutBlamesTheRouteNotTheApp]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testTimeoutBlamesTheRouteNotTheApp]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testTunnelGatewayFailureNeverAdvancesFromHostedToLAN]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testTunnelGatewayFailureNeverAdvancesFromHostedToLAN]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testTypedProtectedRotationPreservesSchemesAndPorts]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testTypedProtectedRotationPreservesSchemesAndPorts]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testTypedRoutesKeepHostedHTTPSAheadOfAnActiveLANFallback]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testTypedRoutesKeepHostedHTTPSAheadOfAnActiveLANFallback]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testUnresolvedHostNamesTheTailnetPossibility]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testUnresolvedHostNamesTheTailnetPossibility]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FailoverTests testWalksProtectedCandidatesInOrderAndWraps]' started.
+Test Case '-[CompanionCoreTests.FailoverTests testWalksProtectedCandidatesInOrderAndWraps]' passed (0.000 seconds).
+Test Suite 'FailoverTests' passed at 2026-09-28 18:28:31.145.
+	 Executed 26 tests, with 0 failures (0 unexpected) in 0.009 (0.013) seconds
+Test Suite 'FlatMascotBodiesTests' started at 2026-09-28 18:28:31.146.
+Test Case '-[CompanionCoreTests.FlatMascotBodiesTests testEachPickerSectionContainsEightChoices]' started.
+Test Case '-[CompanionCoreTests.FlatMascotBodiesTests testEachPickerSectionContainsEightChoices]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.FlatMascotBodiesTests testEveryChoiceParsesAndHasTheSameFixedFaceStyle]' started.
+Test Case '-[CompanionCoreTests.FlatMascotBodiesTests testEveryChoiceParsesAndHasTheSameFixedFaceStyle]' passed (0.007 seconds).
+Test Case '-[CompanionCoreTests.FlatMascotBodiesTests testLegacyAliasesAndUnknownValuesRenderSafely]' started.
+Test Case '-[CompanionCoreTests.FlatMascotBodiesTests testLegacyAliasesAndUnknownValuesRenderSafely]' passed (0.000 seconds).
+Test Suite 'FlatMascotBodiesTests' passed at 2026-09-28 18:28:31.153.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.007 (0.008) seconds
+Test Suite 'GeneratedImageTests' started at 2026-09-28 18:28:31.153.
+Test Case '-[CompanionCoreTests.GeneratedImageTests testGeneratedImagesSurviveMessageDecodeAndCacheRoundTrip]' started.
+Test Case '-[CompanionCoreTests.GeneratedImageTests testGeneratedImagesSurviveMessageDecodeAndCacheRoundTrip]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.GeneratedImageTests testImageOnlyPatchPreservesImagesAndIgnoresFutureKinds]' started.
+Test Case '-[CompanionCoreTests.GeneratedImageTests testImageOnlyPatchPreservesImagesAndIgnoresFutureKinds]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.GeneratedImageTests testLegacyTextHasNoGeneratedImages]' started.
+Test Case '-[CompanionCoreTests.GeneratedImageTests testLegacyTextHasNoGeneratedImages]' passed (0.000 seconds).
+Test Suite 'GeneratedImageTests' passed at 2026-09-28 18:28:31.155.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'InteractivePopTests' started at 2026-09-28 18:28:31.155.
+Test Case '-[CompanionCoreTests.InteractivePopTests testAPushedScreenMaySwipeBack]' started.
+Test Case '-[CompanionCoreTests.InteractivePopTests testAPushedScreenMaySwipeBack]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.InteractivePopTests testTheRootRefusesTheGesture]' started.
+Test Case '-[CompanionCoreTests.InteractivePopTests testTheRootRefusesTheGesture]' passed (0.000 seconds).
+Test Suite 'InteractivePopTests' passed at 2026-09-28 18:28:31.155.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.000 (0.001) seconds
+Test Suite 'MarkdownTests' started at 2026-09-28 18:28:31.155.
+Test Case '-[CompanionCoreTests.MarkdownTests testBlankLineSeparatesParagraphs]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testBlankLineSeparatesParagraphs]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testBulletMarkers]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testBulletMarkers]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testEmptyInputProducesNothing]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testEmptyInputProducesNothing]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testFenceContentIsNotReparsed]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testFenceContentIsNotReparsed]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testFencedCodeKeepsItsLanguageAndItsWhitespace]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testFencedCodeKeepsItsLanguageAndItsWhitespace]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testFenceWithoutLanguage]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testFenceWithoutLanguage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testHashWithoutSpaceIsNotAHeading]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testHashWithoutSpaceIsNotAHeading]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testHeadingLevels]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testHeadingLevels]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testHorizontalRules]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testHorizontalRules]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testInlineSyntaxSurvivesTheSplit]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testInlineSyntaxSurvivesTheSplit]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testNestedBulletsCountIndent]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testNestedBulletsCountIndent]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testNoPrefixOfAReplyLosesCharacters]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testNoPrefixOfAReplyLosesCharacters]' passed (0.005 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testNumberWithoutDelimiterIsProse]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testNumberWithoutDelimiterIsProse]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testOrderedListsKeepTheirNumbers]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testOrderedListsKeepTheirNumbers]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testPartialInputAlwaysRendersSomething]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testPartialInputAlwaysRendersSomething]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testPlainTextIsOneParagraph]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testPlainTextIsOneParagraph]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testQuote]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testQuote]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testRuleNeedsThreeAndNothingElse]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testRuleNeedsThreeAndNothingElse]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testSoftBreaksBecomeSpaces]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testSoftBreaksBecomeSpaces]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MarkdownTests testUnclosedFenceRunsToTheEnd]' started.
+Test Case '-[CompanionCoreTests.MarkdownTests testUnclosedFenceRunsToTheEnd]' passed (0.000 seconds).
+Test Suite 'MarkdownTests' passed at 2026-09-28 18:28:31.165.
+	 Executed 20 tests, with 0 failures (0 unexpected) in 0.008 (0.010) seconds
+Test Suite 'MausBodiesTests' started at 2026-09-28 18:28:31.165.
+Test Case '-[CompanionCoreTests.MausBodiesTests testAnUnknownBodyDrawsTheCursor]' started.
+Test Case '-[CompanionCoreTests.MausBodiesTests testAnUnknownBodyDrawsTheCursor]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.MausBodiesTests testEachBodyIsParsedOnceAndCachedSeparately]' started.
+Test Case '-[CompanionCoreTests.MausBodiesTests testEachBodyIsParsedOnceAndCachedSeparately]' passed (0.003 seconds).
+Test Case '-[CompanionCoreTests.MausBodiesTests testEveryAnchorPlacesAFaceInsideItsBody]' started.
+Test Case '-[CompanionCoreTests.MausBodiesTests testEveryAnchorPlacesAFaceInsideItsBody]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MausBodiesTests testEveryBodyParsesToAClosedPathInsideTheFaceBox]' started.
+Test Case '-[CompanionCoreTests.MausBodiesTests testEveryBodyParsesToAClosedPathInsideTheFaceBox]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MausBodiesTests testTheParserUnderstandsTheCatalogsPathGrammar]' started.
+Test Case '-[CompanionCoreTests.MausBodiesTests testTheParserUnderstandsTheCatalogsPathGrammar]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MausBodiesTests testUnknownBodyFallsBackToTheCursor]' started.
+Test Case '-[CompanionCoreTests.MausBodiesTests testUnknownBodyFallsBackToTheCursor]' passed (0.000 seconds).
+Test Suite 'MausBodiesTests' passed at 2026-09-28 18:28:31.170.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'MessageAttachmentsTests' started at 2026-09-28 18:28:31.170.
+Test Case '-[CompanionCoreTests.MessageAttachmentsTests testAttachmentPolicyAcceptsSupportedImageAndMarkdown]' started.
+Test Case '-[CompanionCoreTests.MessageAttachmentsTests testAttachmentPolicyAcceptsSupportedImageAndMarkdown]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.MessageAttachmentsTests testAttachmentPolicyRejectsCountTypeNameAndSize]' started.
+Test Case '-[CompanionCoreTests.MessageAttachmentsTests testAttachmentPolicyRejectsCountTypeNameAndSize]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.MessageAttachmentsTests testClassifiesWebAndAbsoluteDesktopLinks]' started.
+Test Case '-[CompanionCoreTests.MessageAttachmentsTests testClassifiesWebAndAbsoluteDesktopLinks]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.MessageAttachmentsTests testRejectsMalformedEmptyAndCustomSchemeLinks]' started.
+Test Case '-[CompanionCoreTests.MessageAttachmentsTests testRejectsMalformedEmptyAndCustomSchemeLinks]' passed (0.000 seconds).
+Test Suite 'MessageAttachmentsTests' passed at 2026-09-28 18:28:31.173.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'OnboardingTests' started at 2026-09-28 18:28:31.173.
+Test Case '-[CompanionCoreTests.OnboardingTests testClearedDeferredInviteCannotReopenPairingAfterLaterUnpair]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testClearedDeferredInviteCannotReopenPairingAfterLaterUnpair]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testExistingPairedUserGoesStraightToChats]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testExistingPairedUserGoesStraightToChats]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testFirstLaunchShowsWelcome]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testFirstLaunchShowsWelcome]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testJustPairedUserSeesNotificationExplanationOnceThenChats]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testJustPairedUserSeesNotificationExplanationOnceThenChats]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testPairedUserCanAddAnotherComputer]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testPairedUserCanAddAnotherComputer]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testPairingCommitMarksNotificationStepBeforeSavingConnection]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testPairingCommitMarksNotificationStepBeforeSavingConnection]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testPairingInviteQueueClearsAcrossSuccessAndSignOutSequence]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testPairingInviteQueueClearsAcrossSuccessAndSignOutSequence]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testPairingSubmissionBlocksResetUntilTheAttemptSettles]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testPairingSubmissionBlocksResetUntilTheAttemptSettles]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testPendingNotificationEducationSurvivesUnresolvedLaunchAndRelaunch]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testPendingNotificationEducationSurvivesUnresolvedLaunchAndRelaunch]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testPendingNotificationPreferenceSurvivesAProcessRelaunch]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testPendingNotificationPreferenceSurvivesAProcessRelaunch]' passed (0.003 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testResolvedOrCompletedNotificationEducationClearsPendingMarker]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testResolvedOrCompletedNotificationEducationClearsPendingMarker]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testResumeAndPendingInviteBothOpenPairing]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testResumeAndPendingInviteBothOpenPairing]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testRevokedPairingAlwaysShowsRecovery]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testRevokedPairingAlwaysShowsRecovery]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.OnboardingTests testSkipShowsUsefulUnpairedHome]' started.
+Test Case '-[CompanionCoreTests.OnboardingTests testSkipShowsUsefulUnpairedHome]' passed (0.000 seconds).
+Test Suite 'OnboardingTests' passed at 2026-09-28 18:28:31.179.
+	 Executed 14 tests, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+Test Suite 'OverviewClientTests' started at 2026-09-28 18:28:31.179.
+Test Case '-[CompanionCoreTests.OverviewClientTests testFetchesABotOverview]' started.
+Test Case '-[CompanionCoreTests.OverviewClientTests testFetchesABotOverview]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.OverviewClientTests testRejectsAnUnsafeBotID]' started.
+Test Case '-[CompanionCoreTests.OverviewClientTests testRejectsAnUnsafeBotID]' passed (0.000 seconds).
+Test Suite 'OverviewClientTests' passed at 2026-09-28 18:28:31.180.
+	 Executed 2 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'PairingTests' started at 2026-09-28 18:28:31.181.
+Test Case '-[CompanionCoreTests.PairingTests testAllFailedProbesLeaveTheCredentialUnspent]' started.
+Test Case '-[CompanionCoreTests.PairingTests testAllFailedProbesLeaveTheCredentialUnspent]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testAQuickLANResponseDoesNotOutrankThePreferredTailnetRoute]' started.
+Test Case '-[CompanionCoreTests.PairingTests testAQuickLANResponseDoesNotOutrankThePreferredTailnetRoute]' passed (0.083 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testExplicitManualLANConnectionStillPairs]' started.
+Test Case '-[CompanionCoreTests.PairingTests testExplicitManualLANConnectionStillPairs]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testHostedGatewayFailureRetriesPairingOverTailnetButNeverLAN]' started.
+Test Case '-[CompanionCoreTests.PairingTests testHostedGatewayFailureRetriesPairingOverTailnetButNeverLAN]' passed (0.002 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testHostedRouteFailureNeverFallsBackToDirectHTTP]' started.
+Test Case '-[CompanionCoreTests.PairingTests testHostedRouteFailureNeverFallsBackToDirectHTTP]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testPairingRejectionIsNotSentToAnotherRoute]' started.
+Test Case '-[CompanionCoreTests.PairingTests testPairingRejectionIsNotSentToAnotherRoute]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testProtectedInviteNeverProbesOrRedeemsOnLANOrBonjour]' started.
+Test Case '-[CompanionCoreTests.PairingTests testProtectedInviteNeverProbesOrRedeemsOnLANOrBonjour]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testRejectsAServiceThatDoesNotIdentifyAsOpenMausBot]' started.
+Test Case '-[CompanionCoreTests.PairingTests testRejectsAServiceThatDoesNotIdentifyAsOpenMausBot]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testRetryCanReuseTheLogicalRequestIDAfterTheOnlyRouteDropsItsResponse]' started.
+Test Case '-[CompanionCoreTests.PairingTests testRetryCanReuseTheLogicalRequestIDAfterTheOnlyRouteDropsItsResponse]' passed (0.003 seconds).
+Test Case '-[CompanionCoreTests.PairingTests testTransportFailureRetriesAProtectedFallbackWithTheSameRequestID]' started.
+Test Case '-[CompanionCoreTests.PairingTests testTransportFailureRetriesAProtectedFallbackWithTheSameRequestID]' passed (0.001 seconds).
+Test Suite 'PairingTests' passed at 2026-09-28 18:28:31.275.
+	 Executed 10 tests, with 0 failures (0 unexpected) in 0.094 (0.095) seconds
+Test Suite 'PhoneSecretTests' started at 2026-09-28 18:28:31.275.
+Test Case '-[CompanionCoreTests.PhoneSecretTests testClientPostsOnlyTheEnvelopeToTheExactCard]' started.
+Test Case '-[CompanionCoreTests.PhoneSecretTests testClientPostsOnlyTheEnvelopeToTheExactCard]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.PhoneSecretTests testEncryptsWithoutPuttingPlaintextInTheEnvelope]' started.
+Test Case '-[CompanionCoreTests.PhoneSecretTests testEncryptsWithoutPuttingPlaintextInTheEnvelope]' passed (0.003 seconds).
+Test Case '-[CompanionCoreTests.PhoneSecretTests testExplainsWhenCredentialTransportIsNotProtected]' started.
+Test Case '-[CompanionCoreTests.PhoneSecretTests testExplainsWhenCredentialTransportIsNotProtected]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.PhoneSecretTests testValidatesThePairingKeyAndUsesStableCrossPlatformAAD]' started.
+Test Case '-[CompanionCoreTests.PhoneSecretTests testValidatesThePairingKeyAndUsesStableCrossPlatformAAD]' passed (0.000 seconds).
+Test Suite 'PhoneSecretTests' passed at 2026-09-28 18:28:31.279.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'PinnedChatsTests' started at 2026-09-28 18:28:31.280.
+Test Case '-[CompanionCoreTests.PinnedChatsTests testLocalRoomsAndReconnectedChatsKeepTheirPinOrder]' started.
+Test Case '-[CompanionCoreTests.PinnedChatsTests testLocalRoomsAndReconnectedChatsKeepTheirPinOrder]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.PinnedChatsTests testMalformedStorageAndDuplicateIDsAreSafe]' started.
+Test Case '-[CompanionCoreTests.PinnedChatsTests testMalformedStorageAndDuplicateIDsAreSafe]' passed (0.002 seconds).
+Test Case '-[CompanionCoreTests.PinnedChatsTests testPinsSurviveReloadAndStaySeparateBetweenComputers]' started.
+Test Case '-[CompanionCoreTests.PinnedChatsTests testPinsSurviveReloadAndStaySeparateBetweenComputers]' passed (0.002 seconds).
+Test Case '-[CompanionCoreTests.PinnedChatsTests testPinUnpinAndReorderKeepStableConversationIdentity]' started.
+Test Case '-[CompanionCoreTests.PinnedChatsTests testPinUnpinAndReorderKeepStableConversationIdentity]' passed (0.000 seconds).
+Test Suite 'PinnedChatsTests' passed at 2026-09-28 18:28:31.284.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.004 (0.004) seconds
+Test Suite 'ProfileClientTests' started at 2026-09-28 18:28:31.284.
+Test Case '-[CompanionCoreTests.ProfileClientTests testAvatarGenerationRequestOutlivesTheServersImageTimeout]' started.
+Test Case '-[CompanionCoreTests.ProfileClientTests testAvatarGenerationRequestOutlivesTheServersImageTimeout]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ProfileClientTests testProfileClientEncodesAnExplicitAvatarClearAsNull]' started.
+Test Case '-[CompanionCoreTests.ProfileClientTests testProfileClientEncodesAnExplicitAvatarClearAsNull]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ProfileClientTests testProfileClientSendsOnlyFieldsOwnedByTheAction]' started.
+Test Case '-[CompanionCoreTests.ProfileClientTests testProfileClientSendsOnlyFieldsOwnedByTheAction]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ProfileClientTests testProfilePatchPreservesServerLimitsWithoutClientTruncation]' started.
+Test Case '-[CompanionCoreTests.ProfileClientTests testProfilePatchPreservesServerLimitsWithoutClientTruncation]' passed (0.000 seconds).
+Test Suite 'ProfileClientTests' passed at 2026-09-28 18:28:31.286.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'ProfileRoutinePolicyTests' started at 2026-09-28 18:28:31.286.
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testAgentVoiceWorksWithoutANonexistentWorkspaceDefault]' started.
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testAgentVoiceWorksWithoutANonexistentWorkspaceDefault]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testChatterboxAddressArrivesOnlyWithTheEngineThatNeedsIt]' started.
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testChatterboxAddressArrivesOnlyWithTheEngineThatNeedsIt]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testCloudRunAvailabilityMatchesDesktopRequirements]' started.
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testCloudRunAvailabilityMatchesDesktopRequirements]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testOnlyFutureOneTimeRoutinesCanToggle]' started.
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testOnlyFutureOneTimeRoutinesCanToggle]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testOnlyTheEngineTheServerNamesGetsItsOwnExplanation]' started.
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testOnlyTheEngineTheServerNamesGetsItsOwnExplanation]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testProviderSwitchClearsTheOpenProfilesProviderSpecificVoice]' started.
+Test Case '-[CompanionCoreTests.ProfileRoutinePolicyTests testProviderSwitchClearsTheOpenProfilesProviderSpecificVoice]' passed (0.000 seconds).
+Test Suite 'ProfileRoutinePolicyTests' passed at 2026-09-28 18:28:31.288.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'QueuedSendClientTests' started at 2026-09-28 18:28:31.288.
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testADrainedEntryIsTheOutcomeTheCallerWanted]' started.
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testADrainedEntryIsTheOutcomeTheCallerWanted]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testAnUnknown404IsARealErrorWithAdvice]' started.
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testAnUnknown404IsARealErrorWithAdvice]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testCancelDeletesTheBotQueueEntryWithTheThreadPinned]' started.
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testCancelDeletesTheBotQueueEntryWithTheThreadPinned]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testCancelDeletesTheRoomQueueEntryWithoutABody]' started.
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testCancelDeletesTheRoomQueueEntryWithoutABody]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testDeleteSharedGroupSendsRevisionToScopedRoomRoute]' started.
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testDeleteSharedGroupSendsRevisionToScopedRoomRoute]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testSendReturnsTheQueuedReceipt]' started.
+Test Case '-[CompanionCoreTests.QueuedSendClientTests testSendReturnsTheQueuedReceipt]' passed (0.000 seconds).
+Test Suite 'QueuedSendClientTests' passed at 2026-09-28 18:28:31.291.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'QueuedSendTests' started at 2026-09-28 18:28:31.291.
+Test Case '-[CompanionCoreTests.QueuedSendTests testAnUnreadableBotQueuedFrameIsIgnoredNotReadAsAnEmptyQueue]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testAnUnreadableBotQueuedFrameIsIgnoredNotReadAsAnEmptyQueue]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testBotQueuedFrameDropsMalformedEntriesWithoutDroppingTheFrame]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testBotQueuedFrameDropsMalformedEntriesWithoutDroppingTheFrame]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testBotQueuedFrameReplacesBotQueuesWholesale]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testBotQueuedFrameReplacesBotQueuesWholesale]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testClientQueuedStateDemandsAttentionAndFloatsClosedThreads]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testClientQueuedStateDemandsAttentionAndFloatsClosedThreads]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testConsumeRetiresTheRowAndTombstonesIt]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testConsumeRetiresTheRowAndTombstonesIt]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testDrainThatBeatsItsOwnPostCannotResurrectTheRow]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testDrainThatBeatsItsOwnPostCannotResurrectTheRow]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testHydrateSeedsQueuesFromTheFleetAndReconcilesLandedLines]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testHydrateSeedsQueuesFromTheFleetAndReconcilesLandedLines]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testMessageFrameWithAQueueIdConsumesTheRow]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testMessageFrameWithAQueueIdConsumesTheRow]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testRememberShowsARowAndDeduplicates]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testRememberShowsARowAndDeduplicates]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testSendReceiptDecodesQueuedAndDirectShapes]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testSendReceiptDecodesQueuedAndDirectShapes]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testTombstoneWindowStaysBounded]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testTombstoneWindowStaysBounded]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testTranscriptPagesRetireLandedSends]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testTranscriptPagesRetireLandedSends]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.QueuedSendTests testWireQueuedActivityStillDemandsAttention]' started.
+Test Case '-[CompanionCoreTests.QueuedSendTests testWireQueuedActivityStillDemandsAttention]' passed (0.000 seconds).
+Test Suite 'QueuedSendTests' passed at 2026-09-28 18:28:31.295.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.003 (0.004) seconds
+Test Suite 'RecoveryTests' started at 2026-09-28 18:28:31.295.
+Test Case '-[PairingPersistenceTests.RecoveryTests testExistingRegistryWinsOverBackup]' started.
+Test Case '-[PairingPersistenceTests.RecoveryTests testExistingRegistryWinsOverBackup]' passed (0.002 seconds).
+Test Case '-[PairingPersistenceTests.RecoveryTests testLockedKeychainDoesNotOverwriteRecovery]' started.
+Test Case '-[PairingPersistenceTests.RecoveryTests testLockedKeychainDoesNotOverwriteRecovery]' passed (0.001 seconds).
+Test Case '-[PairingPersistenceTests.RecoveryTests testReinstallRestoresRegistryAndExplicitForgetPersistsEmpty]' started.
+Test Case '-[PairingPersistenceTests.RecoveryTests testReinstallRestoresRegistryAndExplicitForgetPersistsEmpty]' passed (0.002 seconds).
+Test Suite 'RecoveryTests' passed at 2026-09-28 18:28:31.299.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.004 (0.005) seconds
+Test Suite 'RemoteBotTests' started at 2026-09-28 18:28:31.300.
+Test Case '-[CompanionCoreTests.RemoteBotTests testConnectionReasonIsOptionalAndSurvivesWireDecoding]' started.
+Test Case '-[CompanionCoreTests.RemoteBotTests testConnectionReasonIsOptionalAndSurvivesWireDecoding]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RemoteBotTests testLocalBotHasNoRemote]' started.
+Test Case '-[CompanionCoreTests.RemoteBotTests testLocalBotHasNoRemote]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RemoteBotTests testRemoteBotDecodesAndSurvivesABotFrame]' started.
+Test Case '-[CompanionCoreTests.RemoteBotTests testRemoteBotDecodesAndSurvivesABotFrame]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.RemoteBotTests testSharedActivityMessageDecodes]' started.
+Test Case '-[CompanionCoreTests.RemoteBotTests testSharedActivityMessageDecodes]' passed (0.001 seconds).
+Test Suite 'RemoteBotTests' passed at 2026-09-28 18:28:31.302.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'RosterPreviewTests' started at 2026-09-28 18:28:31.302.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testAnAnsweredCardPreviewsAsItsTitle]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testAnAnsweredCardPreviewsAsItsTitle]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testEmptyThreadPreviewsAsEmptyAtEveryLevel]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testEmptyThreadPreviewsAsEmptyAtEveryLevel]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testFullShowsTheToolNameWhenActivityLanded]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testFullShowsTheToolNameWhenActivityLanded]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testHiddenFallsBackToTheLastRealMessage]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testHiddenFallsBackToTheLastRealMessage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testHiddenShowsNothingWhenTheThreadIsOnlyActivity]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testHiddenShowsNothingWhenTheThreadIsOnlyActivity]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testHiddenSkipsAWholeTrailOfActivity]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testHiddenSkipsAWholeTrailOfActivity]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testHiddenStillShowsAPendingCard]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testHiddenStillShowsAPendingCard]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testReducedLeavesALoneActivityAsItsToolName]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testReducedLeavesALoneActivityAsItsToolName]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testReducedSaysRunningWhileAStepIsUnfinished]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testReducedSaysRunningWhileAStepIsUnfinished]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testReducedStillShowsAFailureRatherThanFoldingIt]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testReducedStillShowsAFailureRatherThanFoldingIt]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testReducedSummarisesATrailingRun]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testReducedSummarisesATrailingRun]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RosterPreviewTests testTextAndScreenReadTheSameAtEveryLevel]' started.
+Test Case '-[CompanionCoreTests.RosterPreviewTests testTextAndScreenReadTheSameAtEveryLevel]' passed (0.000 seconds).
+Test Suite 'RosterPreviewTests' passed at 2026-09-28 18:28:31.305.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'RoutineClientTests' started at 2026-09-28 18:28:31.305.
+Test Case '-[CompanionCoreTests.RoutineClientTests testCreatesAnIntervalRoutineWithItsAnchorAndSafetyTimeout]' started.
+Test Case '-[CompanionCoreTests.RoutineClientTests testCreatesAnIntervalRoutineWithItsAnchorAndSafetyTimeout]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.RoutineClientTests testOmitsAnUnchangedRunLimitFromPatch]' started.
+Test Case '-[CompanionCoreTests.RoutineClientTests testOmitsAnUnchangedRunLimitFromPatch]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.RoutineClientTests testSendsNullToRemoveAnOptionalRunLimit]' started.
+Test Case '-[CompanionCoreTests.RoutineClientTests testSendsNullToRemoveAnOptionalRunLimit]' passed (0.000 seconds).
+Test Suite 'RoutineClientTests' passed at 2026-09-28 18:28:31.307.
+	 Executed 3 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'SSETests' started at 2026-09-28 18:28:31.307.
+Test Case '-[CompanionCoreTests.SSETests testAFullStreamDecodesIntoFrames]' started.
+Test Case '-[CompanionCoreTests.SSETests testAFullStreamDecodesIntoFrames]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SSETests testDoesNotLeakFieldsFromOneEventIntoTheNext]' started.
+Test Case '-[CompanionCoreTests.SSETests testDoesNotLeakFieldsFromOneEventIntoTheNext]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SSETests testEmitsNothingUntilTheBlankLineArrives]' started.
+Test Case '-[CompanionCoreTests.SSETests testEmitsNothingUntilTheBlankLineArrives]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SSETests testHandlesTheOptionalSpaceAndCarriageReturns]' started.
+Test Case '-[CompanionCoreTests.SSETests testHandlesTheOptionalSpaceAndCarriageReturns]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SSETests testIgnoresFieldsItDoesNotUseAndBlocksWithoutData]' started.
+Test Case '-[CompanionCoreTests.SSETests testIgnoresFieldsItDoesNotUseAndBlocksWithoutData]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SSETests testJoinsMultipleDataLines]' started.
+Test Case '-[CompanionCoreTests.SSETests testJoinsMultipleDataLines]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SSETests testReadsOneFrameTheHarnessActuallySends]' started.
+Test Case '-[CompanionCoreTests.SSETests testReadsOneFrameTheHarnessActuallySends]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SSETests testSwallowsKeepaliveComments]' started.
+Test Case '-[CompanionCoreTests.SSETests testSwallowsKeepaliveComments]' passed (0.000 seconds).
+Test Suite 'SSETests' passed at 2026-09-28 18:28:31.309.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'ScreenTests' started at 2026-09-28 18:28:31.309.
+Test Case '-[CompanionCoreTests.ScreenTests testBadBase64DecodesToNilRatherThanCrashing]' started.
+Test Case '-[CompanionCoreTests.ScreenTests testBadBase64DecodesToNilRatherThanCrashing]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ScreenTests testBotsAreTrackedSeparately]' started.
+Test Case '-[CompanionCoreTests.ScreenTests testBotsAreTrackedSeparately]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ScreenTests testClosingThePanelForgetsTheFrame]' started.
+Test Case '-[CompanionCoreTests.ScreenTests testClosingThePanelForgetsTheFrame]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ScreenTests testOnlyTheNewestFrameIsKept]' started.
+Test Case '-[CompanionCoreTests.ScreenTests testOnlyTheNewestFrameIsKept]' passed (0.000 seconds).
+Test Suite 'ScreenTests' passed at 2026-09-28 18:28:31.310.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'SectionSelectionTests' started at 2026-09-28 18:28:31.310.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testGapAndEndCancelOutstandingDwell]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testGapAndEndCancelOutstandingDwell]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SectionSelectionTests testHitTestingFindsCellsAndLeavesGridGapsEmpty]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testHitTestingFindsCellsAndLeavesGridGapsEmpty]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SectionSelectionTests testHitTestingIgnoresEmptyFramesAndUsesFirstOverlap]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testHitTestingIgnoresEmptyFramesAndUsesFirstOverlap]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SectionSelectionTests testPreselectedBotsAreNotDuplicatedOrRemovedByBacktracking]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testPreselectedBotsAreNotDuplicatedOrRemovedByBacktracking]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SectionSelectionTests testReturningToEarlierCellBacktracksOnlyTheGestureTail]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testReturningToEarlierCellBacktracksOnlyTheGestureTail]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SectionSelectionTests testSelectionLimitAppliesToInitialTapSelectAllAndDragPaths]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testSelectionLimitAppliesToInitialTapSelectAllAndDragPaths]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SectionSelectionTests testStableCellCommitsOnlyOnceUntilFingerLeaves]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testStableCellCommitsOnlyOnceUntilFingerLeaves]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SectionSelectionTests testStaleDwellCannotCommitAfterCandidateChanges]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testStaleDwellCannotCommitAfterCandidateChanges]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SectionSelectionTests testTapFallbackSelectAllAndClearKeepStableOrder]' started.
+Test Case '-[CompanionCoreTests.SectionSelectionTests testTapFallbackSelectAllAndClearKeepStableOrder]' passed (0.000 seconds).
+Test Suite 'SectionSelectionTests' passed at 2026-09-28 18:28:31.313.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'ServerPairingTests' started at 2026-09-28 18:28:31.313.
+Test Case '-[CompanionCoreTests.ServerPairingTests testARefusedCodeSurfacesTheServersOwnMessage]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testARefusedCodeSurfacesTheServersOwnMessage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testAServerConnectionsStreamCarriesTheBearerAndResumesFromTheCursor]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testAServerConnectionsStreamCarriesTheBearerAndResumesFromTheCursor]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testCodeNormalizationMatchesTheServers]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testCodeNormalizationMatchesTheServers]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testConnectionsSavedBeforeServerPairingStillDecodeAsCompanionOnes]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testConnectionsSavedBeforeServerPairingStillDecodeAsCompanionOnes]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testEveryRefusalCarriesTheServersStatusAndMessage]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testEveryRefusalCarriesTheServersStatusAndMessage]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testOnlyAnAdminScopedServerSessionMayAdminister]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testOnlyAnAdminScopedServerSessionMayAdminister]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testOnlyAWellFormedServerLinkIsAccepted]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testOnlyAWellFormedServerLinkIsAccepted]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testPairingPostsTheCodeWithoutACookieAndKeepsTheBearer]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testPairingPostsTheCodeWithoutACookieAndKeepsTheBearer]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testServerCodesAreDistinguishedFromCompanionCredentialsByShape]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testServerCodesAreDistinguishedFromCompanionCredentialsByShape]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testTheDescriptorIsReadableWithoutASession]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testTheDescriptorIsReadableWithoutASession]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ServerPairingTests testTheServersLinkBecomesAHostedInviteWithTheNormalizedCode]' started.
+Test Case '-[CompanionCoreTests.ServerPairingTests testTheServersLinkBecomesAHostedInviteWithTheNormalizedCode]' passed (0.000 seconds).
+Test Suite 'ServerPairingTests' passed at 2026-09-28 18:28:31.319.
+	 Executed 11 tests, with 0 failures (0 unexpected) in 0.005 (0.006) seconds
+Test Suite 'ShareClientTests' started at 2026-09-28 18:28:31.319.
+Test Case '-[CompanionCoreTests.ShareClientTests testAuthenticatedFileDownloadPostsPathAndSanitizesResponseMetadata]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testAuthenticatedFileDownloadPostsPathAndSanitizesResponseMetadata]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testComposesLegacyUnnamedImageTagWhenNoDisplayNameIsAvailable]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testComposesLegacyUnnamedImageTagWhenNoDisplayNameIsAvailable]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testComposesSharedContentAndEscapesUploadedPaths]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testComposesSharedContentAndEscapesUploadedPaths]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadAllowsScopedRelativeMarkdownTargets]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadAllowsScopedRelativeMarkdownTargets]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadBoundsUnicodeFilenameByUTF8BytesAndKeepsExtension]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadBoundsUnicodeFilenameByUTF8BytesAndKeepsExtension]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadRejectsOversizedDeclaredResponse]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadRejectsOversizedDeclaredResponse]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadRejectsUnsafeRequestBeforeNetworking]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadRejectsUnsafeRequestBeforeNetworking]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadStripsPathAndControlsFromResponseFilename]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testFileDownloadStripsPathAndControlsFromResponseFilename]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testFileUploadRejectsAnUnsafeReturnedDisplayName]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testFileUploadRejectsAnUnsafeReturnedDisplayName]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testImageCapabilityInventoryFailsClosedWhenMissing]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testImageCapabilityInventoryFailsClosedWhenMissing]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testMalformedUploadIDIsRejectedBeforeNetworking]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testMalformedUploadIDIsRejectedBeforeNetworking]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testOversizedFileIsRejectedBeforeNetworking]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testOversizedFileIsRejectedBeforeNetworking]' passed (0.003 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testRawFileUploadEncodesDisplayNameAndReturnsMacPath]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testRawFileUploadEncodesDisplayNameAndReturnsMacPath]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testRawImageUploadKeepsBytesOutOfJSONAndReturnsMacPath]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testRawImageUploadKeepsBytesOutOfJSONAndReturnsMacPath]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testRequestTimeoutCanBeShortenedForAnExtensionLifetime]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testRequestTimeoutCanBeShortenedForAnExtensionLifetime]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testRetrySafeSendPinsBotThreadAndLogicalSendID]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testRetrySafeSendPinsBotThreadAndLogicalSendID]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testRetrySafeSendRejectsUnsafeRouteComponentsBeforeNetworking]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testRetrySafeSendRejectsUnsafeRouteComponentsBeforeNetworking]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testRetrySafeSendRoutesRoomsWithoutGuessingFromThread]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testRetrySafeSendRoutesRoomsWithoutGuessingFromThread]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testSharedFileIndexKeepsSourceAndPagination]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testSharedFileIndexKeepsSourceAndPagination]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.ShareClientTests testSharedSearchEncodesTextAndKeepsResultCursor]' started.
+Test Case '-[CompanionCoreTests.ShareClientTests testSharedSearchEncodesTextAndKeepsResultCursor]' passed (0.000 seconds).
+Test Suite 'ShareClientTests' passed at 2026-09-28 18:28:31.332.
+	 Executed 20 tests, with 0 failures (0 unexpected) in 0.012 (0.013) seconds
+Test Suite 'SharedConversationTests' started at 2026-09-28 18:28:31.332.
+Test Case '-[CompanionCoreTests.SharedConversationTests testBotSearchMatchesOwnerWithoutChangingIdentity]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testBotSearchMatchesOwnerWithoutChangingIdentity]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedConversationTests testChangedMessagePagePreservesReplyAndRemovalMetadata]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testChangedMessagePagePreservesReplyAndRemovalMetadata]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedConversationTests testExplicitTwoPersonGroupRemainsAGroupAndLegacyDMRemainsDirect]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testExplicitTwoPersonGroupRemainsAGroupAndLegacyDMRemainsDirect]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedConversationTests testHumanAndBotPickerLabelsDoNotCollide]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testHumanAndBotPickerLabelsDoNotCollide]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedConversationTests testHumanNamesReplaceOnlyPlaceholderGroupNames]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testHumanNamesReplaceOnlyPlaceholderGroupNames]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedConversationTests testOlderServerPagesStillDecode]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testOlderServerPagesStillDecode]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedConversationTests testRequestOwnershipAndUnknownStatesFailClosed]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testRequestOwnershipAndUnknownStatesFailClosed]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedConversationTests testSendIdentityIncludesReplyAndOrderedAttachmentIdentity]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testSendIdentityIncludesReplyAndOrderedAttachmentIdentity]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedConversationTests testSettledWorkKeepsBotAndRequestIdentity]' started.
+Test Case '-[CompanionCoreTests.SharedConversationTests testSettledWorkKeepsBotAndRequestIdentity]' passed (0.000 seconds).
+Test Suite 'SharedConversationTests' passed at 2026-09-28 18:28:31.335.
+	 Executed 9 tests, with 0 failures (0 unexpected) in 0.003 (0.003) seconds
+Test Suite 'SharedDeliveryTests' started at 2026-09-28 18:28:31.335.
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testCorruptArchiveCannotBeSilentlyOverwritten]' started.
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testCorruptArchiveCannotBeSilentlyOverwritten]' passed (0.005 seconds).
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testEditsDuringUploadPreserveNewDraftAndCaptureOriginalReply]' started.
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testEditsDuringUploadPreserveNewDraftAndCaptureOriginalReply]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testRestartRestoresFilesAndRetriesAcceptedSendWithoutUploadingAgain]' started.
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testRestartRestoresFilesAndRetriesAcceptedSendWithoutUploadingAgain]' passed (0.007 seconds).
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testRetryReusesPartialUploadsAndLostAcknowledgementIdentity]' started.
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testRetryReusesPartialUploadsAndLostAcknowledgementIdentity]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testStorageFailurePreventsNetworkDispatch]' started.
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testStorageFailurePreventsNetworkDispatch]' passed (0.004 seconds).
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testUnsentFilesAndEditsPersistIndependentlyOfAnotherConversation]' started.
+Test Case '-[CompanionCoreTests.SharedDeliveryTests testUnsentFilesAndEditsPersistIndependentlyOfAnotherConversation]' passed (0.006 seconds).
+Test Suite 'SharedDeliveryTests' passed at 2026-09-28 18:28:31.359.
+	 Executed 6 tests, with 0 failures (0 unexpected) in 0.023 (0.023) seconds
+Test Suite 'SidebarSectionsClientTests' started at 2026-09-28 18:28:31.359.
+Test Case '-[CompanionCoreTests.SidebarSectionsClientTests testAssignSectionUsesTheNarrowAtomicRoute]' started.
+Test Case '-[CompanionCoreTests.SidebarSectionsClientTests testAssignSectionUsesTheNarrowAtomicRoute]' passed (0.001 seconds).
+Test Suite 'SidebarSectionsClientTests' passed at 2026-09-28 18:28:31.360.
+	 Executed 1 test, with 0 failures (0 unexpected) in 0.001 (0.001) seconds
+Test Suite 'StoreTests' started at 2026-09-28 18:28:31.360.
+Test Case '-[CompanionCoreTests.StoreTests testABotFrameMergesRatherThanWipingTheTranscript]' started.
+Test Case '-[CompanionCoreTests.StoreTests testABotFrameMergesRatherThanWipingTheTranscript]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testAChannelTaskSwitchReplacesTheActiveTranscript]' started.
+Test Case '-[CompanionCoreTests.StoreTests testAChannelTaskSwitchReplacesTheActiveTranscript]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testAdvancingBeforeAnyHelloDoesNothing]' started.
+Test Case '-[CompanionCoreTests.StoreTests testAdvancingBeforeAnyHelloDoesNothing]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testAnUnknownBotFrameAddsIt]' started.
+Test Case '-[CompanionCoreTests.StoreTests testAnUnknownBotFrameAddsIt]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testAppendsAndPatchesInPlace]' started.
+Test Case '-[CompanionCoreTests.StoreTests testAppendsAndPatchesInPlace]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testAReplayedMessageDoesNotAppearTwice]' started.
+Test Case '-[CompanionCoreTests.StoreTests testAReplayedMessageDoesNotAppearTwice]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testATaskSwitchReplacesTheActiveTranscript]' started.
+Test Case '-[CompanionCoreTests.StoreTests testATaskSwitchReplacesTheActiveTranscript]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testBackgroundLiveTailStillNeedsItsInitialPage]' started.
+Test Case '-[CompanionCoreTests.StoreTests testBackgroundLiveTailStillNeedsItsInitialPage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testBackgroundPatchDoesNotCountAsAPageAndEmptyLegacyPageDoes]' started.
+Test Case '-[CompanionCoreTests.StoreTests testBackgroundPatchDoesNotCountAsAPageAndEmptyLegacyPageDoes]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testColdBackgroundPageCarriesItsOwnBranchHead]' started.
+Test Case '-[CompanionCoreTests.StoreTests testColdBackgroundPageCarriesItsOwnBranchHead]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testDeletingABotTakesItsTranscriptWithIt]' started.
+Test Case '-[CompanionCoreTests.StoreTests testDeletingABotTakesItsTranscriptWithIt]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testFramesThisClientIgnoresAreHarmless]' started.
+Test Case '-[CompanionCoreTests.StoreTests testFramesThisClientIgnoresAreHarmless]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testHydrateIndexesEveryThread]' started.
+Test Case '-[CompanionCoreTests.StoreTests testHydrateIndexesEveryThread]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testMessageAppendMovesTheLeafAndBranchSwitchClearsLiveText]' started.
+Test Case '-[CompanionCoreTests.StoreTests testMessageAppendMovesTheLeafAndBranchSwitchClearsLiveText]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testMessagesOnOtherBranchesDoNotMoveSelectedOrBackgroundThreadHeads]' started.
+Test Case '-[CompanionCoreTests.StoreTests testMessagesOnOtherBranchesDoNotMoveSelectedOrBackgroundThreadHeads]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testMetadataOnlyFleetDoesNotCountAsLoadedButEmptyTranscriptsDo]' started.
+Test Case '-[CompanionCoreTests.StoreTests testMetadataOnlyFleetDoesNotCountAsLoadedButEmptyTranscriptsDo]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testNewOwnerFramesOnlyCountAsLoadedWhenTheyContainAPage]' started.
+Test Case '-[CompanionCoreTests.StoreTests testNewOwnerFramesOnlyCountAsLoadedWhenTheyContainAPage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testNotificationsCollectInOrder]' started.
+Test Case '-[CompanionCoreTests.StoreTests testNotificationsCollectInOrder]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testNotificationsKeepOnlyARecentWindow]' started.
+Test Case '-[CompanionCoreTests.StoreTests testNotificationsKeepOnlyARecentWindow]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testPendingApprovalsAreTheUnansweredOnesNewestFirst]' started.
+Test Case '-[CompanionCoreTests.StoreTests testPendingApprovalsAreTheUnansweredOnesNewestFirst]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testPinnedTaskKeepsItsModelRunAndBranchWhenAnotherDeviceSwitches]' started.
+Test Case '-[CompanionCoreTests.StoreTests testPinnedTaskKeepsItsModelRunAndBranchWhenAnotherDeviceSwitches]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testRosterIsLoadedOnlyAfterAnAcceptedSnapshot]' started.
+Test Case '-[CompanionCoreTests.StoreTests testRosterIsLoadedOnlyAfterAnAcceptedSnapshot]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testRoutineExecutionsAreHiddenOnlyFromTheThreadPicker]' started.
+Test Case '-[CompanionCoreTests.StoreTests testRoutineExecutionsAreHiddenOnlyFromTheThreadPicker]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testScrollbackPrependsWithoutDuplicating]' started.
+Test Case '-[CompanionCoreTests.StoreTests testScrollbackPrependsWithoutDuplicating]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testSearchWindowMergesAndOrdersWithoutDuplicating]' started.
+Test Case '-[CompanionCoreTests.StoreTests testSearchWindowMergesAndOrdersWithoutDuplicating]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testSidebarSectionsGroupBotsAndChannelsInNaturalOrder]' started.
+Test Case '-[CompanionCoreTests.StoreTests testSidebarSectionsGroupBotsAndChannelsInNaturalOrder]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testTheCursorFollowsTheStreamAndKeepsItsStreamId]' started.
+Test Case '-[CompanionCoreTests.StoreTests testTheCursorFollowsTheStreamAndKeepsItsStreamId]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testVersionsAreUserMessagesWithTheSameParent]' started.
+Test Case '-[CompanionCoreTests.StoreTests testVersionsAreUserMessagesWithTheSameParent]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StoreTests testVisibleTranscriptFollowsTheActiveBranch]' started.
+Test Case '-[CompanionCoreTests.StoreTests testVisibleTranscriptFollowsTheActiveBranch]' passed (0.000 seconds).
+Test Suite 'StoreTests' passed at 2026-09-28 18:28:31.371.
+	 Executed 29 tests, with 0 failures (0 unexpected) in 0.009 (0.011) seconds
+Test Suite 'StreamingTests' started at 2026-09-28 18:28:31.371.
+Test Case '-[CompanionCoreTests.StreamingTests testAnUnknownStreamKindIsDroppedRatherThanGuessedAt]' started.
+Test Case '-[CompanionCoreTests.StreamingTests testAnUnknownStreamKindIsDroppedRatherThanGuessedAt]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StreamingTests testASettledReplyReplacesTheLiveText]' started.
+Test Case '-[CompanionCoreTests.StreamingTests testASettledReplyReplacesTheLiveText]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StreamingTests testDeltasAccumulateIntoLiveText]' started.
+Test Case '-[CompanionCoreTests.StreamingTests testDeltasAccumulateIntoLiveText]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StreamingTests testOnlyASettledBotReplyClearsIt]' started.
+Test Case '-[CompanionCoreTests.StreamingTests testOnlyASettledBotReplyClearsIt]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StreamingTests testReasoningIsKeptApartFromTheAnswer]' started.
+Test Case '-[CompanionCoreTests.StreamingTests testReasoningIsKeptApartFromTheAnswer]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StreamingTests testTheTurnEndingClearsEvenWithoutASettledMessage]' started.
+Test Case '-[CompanionCoreTests.StreamingTests testTheTurnEndingClearsEvenWithoutASettledMessage]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.StreamingTests testThreadsStreamIndependently]' started.
+Test Case '-[CompanionCoreTests.StreamingTests testThreadsStreamIndependently]' passed (0.000 seconds).
+Test Suite 'StreamingTests' passed at 2026-09-28 18:28:31.372.
+	 Executed 7 tests, with 0 failures (0 unexpected) in 0.001 (0.002) seconds
+Test Suite 'ThreadNavigationTests' started at 2026-09-28 18:28:31.372.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testAHeldSendRanksInTheQueuedTierAboveTheThreadOpenHere]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testAHeldSendRanksInTheQueuedTierAboveTheThreadOpenHere]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testArchivedBylineYieldsToCloserAndBeatsOpener]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testArchivedBylineYieldsToCloserAndBeatsOpener]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testArchivedThreadsDecodeByPresenceIncludingZeroStamp]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testArchivedThreadsDecodeByPresenceIncludingZeroStamp]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testArchivedThreadsFoldOutOfTheTreeButResurfaceOnAttention]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testArchivedThreadsFoldOutOfTheTreeButResurfaceOnAttention]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testAttentionFloatsAboveIdleThreadsAndIdleThreadsKeepStoredOrder]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testAttentionFloatsAboveIdleThreadsAndIdleThreadsKeepStoredOrder]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testAttentionOrderingIsStableWithinATier]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testAttentionOrderingIsStableWithinATier]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testAttentionRanksWaitingOnYouAboveWorkingAndQueuedAboveUnread]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testAttentionRanksWaitingOnYouAboveWorkingAndQueuedAboveUnread]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testBlankTitlesHaveAnExplicitFallback]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testBlankTitlesHaveAnExplicitFallback]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testClosedThreadsFoldOutOfTheTreeButStayReachable]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testClosedThreadsFoldOutOfTheTreeButStayReachable]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testEqualAttentionRanksKeepStoredOrderAndSearchKeepsRelevanceOrder]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testEqualAttentionRanksKeepStoredOrderAndSearchKeepsRelevanceOrder]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testFoldersFollowSavedOrderAndThreadsKeepServerOrder]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testFoldersFollowSavedOrderAndThreadsKeepServerOrder]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testGroupingPreservesRuntimeMetadataAndDoesNotChangeSelection]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testGroupingPreservesRuntimeMetadataAndDoesNotChangeSelection]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testHomeOpensWorkingThenMostRecentlyActiveWithoutChangingExplicitProjection]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testHomeOpensWorkingThenMostRecentlyActiveWithoutChangingExplicitProjection]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testLegacyFallbackKeepsCurrentConversationAndRuntimeSettings]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testLegacyFallbackKeepsCurrentConversationAndRuntimeSettings]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testMixedUnreadMetadataDoesNotApplyAggregateToUnknownThreads]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testMixedUnreadMetadataDoesNotApplyAggregateToUnknownThreads]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testOrphansStayUnfiledAndEmptyOrDuplicateFoldersDoNotDuplicateRows]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testOrphansStayUnfiledAndEmptyOrDuplicateFoldersDoNotDuplicateRows]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testProjectsDecodeWithOptionalEmojiAndLegacyAbsence]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testProjectsDecodeWithOptionalEmojiAndLegacyAbsence]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testRoutineExecutionsNeverAppearInFoldersOrSearch]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testRoutineExecutionsNeverAppearInFoldersOrSearch]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testSearchMatchesTitlesAndFolderNamesWithoutCaseOrAccentSensitivity]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testSearchMatchesTitlesAndFolderNamesWithoutCaseOrAccentSensitivity]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testSiblingNavigationProjectionsKeepTheirOwnThreadAndRuntime]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testSiblingNavigationProjectionsKeepTheirOwnThreadAndRuntime]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testTheThreadOpenHereRidesAboveIdleButBelowAttentionTiers]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testTheThreadOpenHereRidesAboveIdleButBelowAttentionTiers]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testUnreadBadgeCountsVisibleSiblingThreadsOnceEachAndKeepsRoomCount]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testUnreadBadgeCountsVisibleSiblingThreadsOnceEachAndKeepsRoomCount]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testUnreadBadgeFallsBackOnceForLegacyMetadata]' started.
+Test Case '-[CompanionCoreTests.ThreadNavigationTests testUnreadBadgeFallsBackOnceForLegacyMetadata]' passed (0.000 seconds).
+Test Suite 'ThreadNavigationTests' passed at 2026-09-28 18:28:31.379.
+	 Executed 23 tests, with 0 failures (0 unexpected) in 0.005 (0.007) seconds
+Test Suite 'ToolStepsTests' started at 2026-09-28 18:28:31.379.
+Test Case '-[CompanionCoreTests.ToolStepsTests testACommandKeepsItsFirstLine]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testACommandKeepsItsFirstLine]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testAHarnessReceiptIsShownVerbatim]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testAHarnessReceiptIsShownVerbatim]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testAMixedRunJustCountsSteps]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testAMixedRunJustCountsSteps]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testAnMcpToolNamesItsServerRatherThanItsWireName]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testAnMcpToolNamesItsServerRatherThanItsWireName]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testAnUnknownToolKeepsItsOwnName]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testAnUnknownToolKeepsItsOwnName]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testAPendingCallIsRunningAndAFailedOneIsFailed]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testAPendingCallIsRunningAndAFailedOneIsFailed]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testARunOfOneVerbCountsItsNoun]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testARunOfOneVerbCountsItsNoun]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testARunReadsAsItsWorstOutcome]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testARunReadsAsItsWorstOutcome]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testASingleCallWithNoTargetReadsAsAnArticle]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testASingleCallWithNoTargetReadsAsAnArticle]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testElapsedReadsAsMinutesPastAMinute]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testElapsedReadsAsMinutesPastAMinute]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testFileToolsReadAsAVerbAndABasename]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testFileToolsReadAsAVerbAndABasename]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.ToolStepsTests testTheWireFieldsSurviveDecoding]' started.
+Test Case '-[CompanionCoreTests.ToolStepsTests testTheWireFieldsSurviveDecoding]' passed (0.000 seconds).
+Test Suite 'ToolStepsTests' passed at 2026-09-28 18:28:31.382.
+	 Executed 12 tests, with 0 failures (0 unexpected) in 0.002 (0.003) seconds
+Test Suite 'VoiceProviderClientTests' started at 2026-09-28 18:28:31.382.
+Test Case '-[CompanionCoreTests.VoiceProviderClientTests testSaveChatterboxServerCommitsAddressAndModelTogether]' started.
+Test Case '-[CompanionCoreTests.VoiceProviderClientTests testSaveChatterboxServerCommitsAddressAndModelTogether]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.VoiceProviderClientTests testSetFishVoiceProviderUsesItsExactWireValue]' started.
+Test Case '-[CompanionCoreTests.VoiceProviderClientTests testSetFishVoiceProviderUsesItsExactWireValue]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.VoiceProviderClientTests testSetVoiceProviderWritesTheEngineAndNothingElse]' started.
+Test Case '-[CompanionCoreTests.VoiceProviderClientTests testSetVoiceProviderWritesTheEngineAndNothingElse]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.VoiceProviderClientTests testWalkieNeverSendsAnotherProvidersVoiceIdToElevenLabs]' started.
+Test Case '-[CompanionCoreTests.VoiceProviderClientTests testWalkieNeverSendsAnotherProvidersVoiceIdToElevenLabs]' passed (0.000 seconds).
+Test Suite 'VoiceProviderClientTests' passed at 2026-09-28 18:28:31.385.
+	 Executed 4 tests, with 0 failures (0 unexpected) in 0.002 (0.002) seconds
+Test Suite 'WaitingThreadHydrationTests' started at 2026-09-28 18:28:31.385.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testAnotherDeviceAnswersWhileTheBackgroundPageIsLoading]' started.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testAnotherDeviceAnswersWhileTheBackgroundPageIsLoading]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testCancelledHydrationDoesNotStartRequests]' started.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testCancelledHydrationDoesNotStartRequests]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testColdHydrationFindsBackgroundApprovalWithoutOpeningItsThread]' started.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testColdHydrationFindsBackgroundApprovalWithoutOpeningItsThread]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testColdSnapshotAcceptsANilCursorButCannotOverwriteANewerHello]' started.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testColdSnapshotAcceptsANilCursorButCannotOverwriteANewerHello]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testLateSnapshotCannotOverwriteAnApprovalResolvedByTheLiveStream]' started.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testLateSnapshotCannotOverwriteAnApprovalResolvedByTheLiveStream]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testOlderComputersWithoutTaskActivityStillHydrate]' started.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testOlderComputersWithoutTaskActivityStillHydrate]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testPageFailureDoesNotCommitAPartialSnapshotOrAdvanceTheCursor]' started.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testPageFailureDoesNotCommitAPartialSnapshotOrAdvanceTheCursor]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testReconnectDoesNotKeepAStaleBackgroundApproval]' started.
+Test Case '-[CompanionCoreTests.WaitingThreadHydrationTests testReconnectDoesNotKeepAStaleBackgroundApproval]' passed (0.001 seconds).
+Test Suite 'WaitingThreadHydrationTests' passed at 2026-09-28 18:28:31.392.
+	 Executed 8 tests, with 0 failures (0 unexpected) in 0.007 (0.008) seconds
+Test Suite 'WalkieTests' started at 2026-09-28 18:28:31.392.
+Test Case '-[CompanionCoreTests.WalkieTests testAQuestionCardIsSpokenEvenWhileTheTurnIsHeldOpen]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testAQuestionCardIsSpokenEvenWhileTheTurnIsHeldOpen]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testARunOnSentenceSplitsAtWords]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testARunOnSentenceSplitsAtWords]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testEmptyTextHasNothingToSay]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testEmptyTextHasNothingToSay]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testIgnoresYourOwnWordsAndToolActivity]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testIgnoresYourOwnWordsAndToolActivity]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testLongRepliesStopAtASentenceAndPointToTheChat]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testLongRepliesStopAtASentenceAndPointToTheChat]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testNothingNewMeansNoReply]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testNothingNewMeansNoReply]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testReadsLinkTextNotAddresses]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testReadsLinkTextNotAddresses]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testReturnsEveryNewBotTextOnceTheTurnSettles]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testReturnsEveryNewBotTextOnceTheTurnSettles]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testShortTextIsOneUtterance]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testShortTextIsOneUtterance]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testSkipsCodeBlocksButKeepsInlineCode]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testSkipsCodeBlocksButKeepsInlineCode]' passed (0.001 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testSplitsAtSentencesWithinTheLimit]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testSplitsAtSentencesWithinTheLimit]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testStripsMarkdownEmphasisHeadingsAndBullets]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testStripsMarkdownEmphasisHeadingsAndBullets]' passed (0.000 seconds).
+Test Case '-[CompanionCoreTests.WalkieTests testWaitsWhileTheBotIsStillWorking]' started.
+Test Case '-[CompanionCoreTests.WalkieTests testWaitsWhileTheBotIsStillWorking]' passed (0.000 seconds).
+Test Suite 'WalkieTests' passed at 2026-09-28 18:28:31.397.
+	 Executed 13 tests, with 0 failures (0 unexpected) in 0.003 (0.005) seconds
+Test Suite 'CompanionCorePackageTests.xctest' passed at 2026-09-28 18:28:31.397.
+	 Executed 511 tests, with 0 failures (0 unexpected) in 0.790 (0.836) seconds
+Test Suite 'All tests' passed at 2026-09-28 18:28:31.397.
+	 Executed 511 tests, with 0 failures (0 unexpected) in 0.790 (0.848) seconds
+◇ Test run started.
+↳ Testing Library Version: 1743
+↳ Target Platform: arm64e-apple-macos14.0
+✔ Test run with 0 tests in 0 suites passed after 0.001 seconds.

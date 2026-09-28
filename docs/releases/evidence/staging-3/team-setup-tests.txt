@@ -1,0 +1,11 @@
+
+ RUN  v4.1.10 /Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging
+
+(node:64305) ExperimentalWarning: SQLite is an experimental feature and might change at any time
+(Use `node --trace-warnings ...` to show where the warning was created)
+
+ Test Files  1 passed (1)
+      Tests  1 passed (1)
+   Start at  18:28:44
+   Duration  9.26s (transform 217ms, setup 178ms, import 255ms, tests 8.65s, environment 0ms)
+

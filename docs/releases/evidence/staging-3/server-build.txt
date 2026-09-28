@@ -1,0 +1,35 @@
+
+> bos-bot@0.1.85-staging.3 build:server /Users/firazfhansurie/.bos-bot/task-workspaces/e982e965-9839-4786-81bc-8df5b7da9a30/c68c2679-57a8-44a2-bfde-15c4c2ef166a/bos-staging
+> tsc -p tsconfig.server.build.json && node scripts/bundle-server.mjs
+
+
+  dist-server/index.js                   3.9mb ⚠️
+  dist-server/pair-cli.js                1.5mb ⚠️
+  dist-server/openmausbot.js             1.5mb ⚠️
+  dist-server/vps-container-mcp.js     583.0kb
+  dist-server/container-mcp.js         582.2kb
+  dist-server/drivers/agents-proxy.js  139.2kb
+  dist-server/mcp-gate.js               20.1kb
+  dist-server/drivers/phone-proxy.js    16.9kb
+  dist-server/local-computer-proxy.js   16.6kb
+  dist-server/local-computer.js         10.9kb
+  dist-server/permission-proxy.js        8.0kb
+  dist-server/connector-proxy.js         7.6kb
+  dist-server/drivers/dweb-proxy.js      6.6kb
+  dist-server/browser-proxy.js           5.1kb
+  dist-server/hooks/omb-hook.js          2.6kb
+  dist-server/proxy-paths.js             1.2kb
+
+⚡ Done in 219ms
+
+  dist-server/mcp-server.js  56.4kb
+
+⚡ Done in 7ms
+
+  dist-server/tunnel-guardian.js  11.9kb
+
+⚡ Done in 4ms
+
+  dist-server/prepare-cloudflared.js  10.9kb
+
+⚡ Done in 3ms

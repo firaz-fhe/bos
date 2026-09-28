@@ -1,0 +1,1 @@
+server/index.ts:11956:87: warning unicorn(prefer-string-starts-ends-with): Prefer String#endsWith over a regex with a dollar sign. help: Replace `/ · linked Mac$/.test(title)` with `title.endsWith(' · linked Mac')`.

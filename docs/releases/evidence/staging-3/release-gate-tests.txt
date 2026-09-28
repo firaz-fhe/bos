@@ -1,0 +1,21 @@
+✔ only explicit free IDs with all known costs zero pass (1.2565ms)
+✔ request cannot fall back or pay for prompt/output (1.468916ms)
+✔ scoring requires valid structured correct answers (0.199834ms)
+✔ empty manifest cannot imply verified release (0.367042ms)
+✔ live identity cannot equal staging identity (0.151042ms)
+✔ public inference stops globally at first auth failure without credentials or retry (2.334625ms)
+✔ price change closes circuit before inference request (0.233458ms)
+✔ release artifact tampering is caught independently of manifest claims (2.355959ms)
+✔ authenticated run requires designated key before any request (0.182333ms)
+✔ authenticated request uses designated key without reporting it (0.385791ms)
+✔ shortlist is explicit, bounded and free-only before network (0.402583ms)
+✔ website smoke requires actual self-contained semantic html (0.303875ms)
+✔ private pilot narrows platforms only with explicit mode and local distribution evidence (4.806917ms)
+ℹ tests 13
+ℹ suites 0
+ℹ pass 13
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 142.002792
