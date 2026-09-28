@@ -109,3 +109,18 @@ The request API fixture runs overlapping requests to the same bot in two rooms:
 the second room stays queued, a cancel addressed through the wrong room is
 rejected, and the correctly cancelled queued request never dispatches. These are
 isolated protocol checks; the final two-host device acceptance remains required.
+
+## Shared bot appearance
+
+Run `node --experimental-strip-types scripts/verify-shared-mascots.ts` for a
+separate fake-provider server and ordinary App preview. Open the printed
+`previewUrl`, then the **Mascot acceptance** conversation. Pepper must show an
+orange bear and Willow a pink cat in their working rows, even after the human
+message. POST to the printed `finishUrl` (fixture only) to release both replies;
+their author avatars must keep those bodies. The room header remains human.
+Ctrl-C closes the preview and disposable server. `--smoke` checks the roster
+and preview response, then closes; it does not assert browser rendering.
+
+`ChatView.controls.test.ts` also renders the actual chat component to verify
+body paths/colors, simultaneous speakers, uploaded bot images, and the person
+photo independently of the room's placeholder profile.
